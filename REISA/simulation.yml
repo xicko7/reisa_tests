@@ -70,7 +70,7 @@ pdi:
                 def free_mem(self, dep, i):
                     ray.wait(dep, num_returns=len(dep))
                     refs = [self.data_queues[mpid][i] for mpid in range(mpi_per_node)]
-                    free(refs)
+                    free(refs, local_only=True)
                     for mpid in range(mpi_per_node):
                         self.data_queues[mpid][i] = None
                     del refs

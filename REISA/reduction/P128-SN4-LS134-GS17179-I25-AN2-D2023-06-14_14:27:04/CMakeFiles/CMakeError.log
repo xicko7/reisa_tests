@@ -1,0 +1,83 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6389e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6389e.dir/build.make CMakeFiles/cmTC_6389e.dir/build
+gmake[1]: se ingresa al directorio `/gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6389e.dir/src.c.o
+/gpfs/softs/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-mpv3i3uebzvnvz7wxn6ywysd5hftycj3/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_6389e.dir/src.c.o -c /gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6389e
+/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.24.3-ozmdie7tj76e7ljinj2mbyxgkev4xmr2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6389e.dir/link.txt --verbose=1
+/gpfs/softs/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-mpv3i3uebzvnvz7wxn6ywysd5hftycj3/bin/gcc CMakeFiles/cmTC_6389e.dir/src.c.o -o cmTC_6389e 
+CMakeFiles/cmTC_6389e.dir/src.c.o: En la función `main':
+src.c:(.text+0x2d): referencia a `pthread_create' sin definir
+src.c:(.text+0x39): referencia a `pthread_detach' sin definir
+src.c:(.text+0x45): referencia a `pthread_cancel' sin definir
+src.c:(.text+0x56): referencia a `pthread_join' sin definir
+src.c:(.text+0x6a): referencia a `pthread_atfork' sin definir
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_6389e] Error 1
+gmake[1]: se sale del directorio `/gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_6389e/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f2b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f2b0.dir/build.make CMakeFiles/cmTC_0f2b0.dir/build
+gmake[1]: se ingresa al directorio `/gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f2b0.dir/CheckFunctionExists.c.o
+/gpfs/softs/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-mpv3i3uebzvnvz7wxn6ywysd5hftycj3/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_0f2b0.dir/CheckFunctionExists.c.o -c /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.24.3-ozmdie7tj76e7ljinj2mbyxgkev4xmr2/share/cmake-3.24/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0f2b0
+/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.24.3-ozmdie7tj76e7ljinj2mbyxgkev4xmr2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f2b0.dir/link.txt --verbose=1
+/gpfs/softs/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-mpv3i3uebzvnvz7wxn6ywysd5hftycj3/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0f2b0.dir/CheckFunctionExists.c.o -o cmTC_0f2b0  -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_0f2b0] Error 1
+gmake[1]: se sale del directorio `/gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_0f2b0/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b313/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b313.dir/build.make CMakeFiles/cmTC_9b313.dir/build
+gmake[1]: se ingresa al directorio `/gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_9b313.dir/build.make:76: *** el patrón de objetivo no contiene `%'.  Alto.
+gmake[1]: se sale del directorio `/gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_9b313/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7391e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7391e.dir/build.make CMakeFiles/cmTC_7391e.dir/build
+gmake[1]: se ingresa al directorio `/gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_7391e.dir/build.make:76: *** el patrón de objetivo no contiene `%'.  Alto.
+gmake[1]: se sale del directorio `/gpfs/users/fernandezx/internship/reisa_tests/REISA/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2023-06-14_14:27:04/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_7391e/fast] Error 2
+
+
+

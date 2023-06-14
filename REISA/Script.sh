@@ -76,16 +76,16 @@ for ((i = 1; i <= WORKER_NUM; i++)); do
     node_i=${NODES_ARRAY[$i]}
     srun --nodes=1 --ntasks=1 --relative=$i --cpus-per-task=$CPUS_PER_WORKER --mem=128G \
         ray start --address $RAY_ADDRESS --redis-password "$REDIS_PASSWORD" \
-        --num-cpus $CPUS_PER_WORKER --block --resources="{\"compute\": ${CPUS_PER_WORKER}, \"transit\": 1}" --object-store-memory=$((96*10**9)) 1>/dev/null 2>&1 &
+        --num-cpus $CPUS_PER_WORKER --block --resources="{\"compute\": ${CPUS_PER_WORKER}, \"transit\": 1}" --object-store-memory=$((64*10**9)) 1>/dev/null 2>&1 &
 done
 
 
 # START RAY IN SIMULATION NODES
 for ((; i < $SLURM_JOB_NUM_NODES; i++)); do
     node_i=${NODES_ARRAY[$i]}
-    srun  --nodes=1 --ntasks=1 --relative=$i --cpus-per-task=$(($MPI_PER_NODE+2)) --mem=128G \
+    srun  --nodes=1 --ntasks=1 --relative=$i --cpus-per-task=$((1+$IN_SITU_RESOURCES)) --mem=128G \
         ray start --address $RAY_ADDRESS --redis-password "$REDIS_PASSWORD" \
-        --num-cpus=$((1+$IN_SITU_RESOURCES)) --block --resources="{\"actor\": 1, \"compute\": ${IN_SITU_RESOURCES}}" --object-store-memory $((96*10**9))  1>/dev/null 2>&1 &
+        --num-cpus=$((1+$IN_SITU_RESOURCES)) --block --resources="{\"actor\": 1, \"compute\": ${IN_SITU_RESOURCES}}" --object-store-memory $((64*10**9))  1>/dev/null 2>&1 &
 done
 
 cnt=0
@@ -107,7 +107,7 @@ client=$!
 # ray status --address=$RAY_ADDRESS
 
 # LAUNCH THE SIMULATION
-srun --oversubscribe --overcommit -N $NUM_SIM_NODES --ntasks-per-node=$MPI_PER_NODE\
+pdirun srun --oversubscribe --overcommit -N $NUM_SIM_NODES --ntasks-per-node=$MPI_PER_NODE\
     -n $MPI_TASKS --nodelist=$SIM_NODE_LIST --cpus-per-task=1\
         ./simulation $SLURM_JOB_ID &
 sim=$!

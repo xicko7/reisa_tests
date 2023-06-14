@@ -41,5 +41,5 @@ pdirun make -B simulation > /dev/null 2>&1
 echo -e "$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10}" > rerun.sh
 
 # RUNNING
-echo -e "Executing $(sbatch --parsable -N $NNODES --partition cpu_short --ntasks=$NPROC Script.sh $SIMUNODES $MPI_PER_NODE $CPUS_PER_WORKER $9 ${10}) in $OUTPUT" >> ../../../jobs.log
+echo -e "Executing $(sbatch --parsable -N $NNODES --partition cpu_short --ntasks=$NPROC Script.sh $SIMUNODES $MPI_PER_NODE $CPUS_PER_WORKER $9 ${10}) in $MAIN_DIR/$OUTPUT/" >> ../../../jobs.log
 cd $MAIN_DIR

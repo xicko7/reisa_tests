@@ -1,0 +1,638 @@
+distributed.scheduler - INFO - -----------------------------------------------
+distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+distributed.scheduler - INFO - -----------------------------------------------
+distributed.scheduler - INFO - Clear task state
+distributed.scheduler - INFO -   Scheduler at:     tcp://10.7.0.141:8786
+distributed.scheduler - INFO -   dashboard at:           10.7.0.141:8787
+distributed.scheduler - INFO - Receive client connection: Client-7af2525e-0ba2-11ee-9619-0894efb3fef8
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-7af24d9c-0ba2-11ee-9618-0894efb3fef8
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-7afa751b-0ba2-11ee-bbc9-0894efae584a
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-7afa776c-0ba2-11ee-bbc8-0894efae584a
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-7b05df1e-0ba2-11ee-9455-0894efb3fee4
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-7b05e264-0ba2-11ee-9456-0894efb3fee4
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-7b0ea857-0ba2-11ee-affb-0894efb3fee6
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-7b0ea6c0-0ba2-11ee-affa-0894efb3fee6
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:42810', name: tcp://10.7.0.146:42810, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:42810
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:45904', name: tcp://10.7.0.146:45904, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:45904
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:46561', name: tcp://10.7.0.146:46561, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:46561
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:38565', name: tcp://10.7.0.146:38565, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:38565
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:38200', name: tcp://10.7.0.146:38200, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:38200
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:38613', name: tcp://10.7.0.146:38613, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:38613
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:42737', name: tcp://10.7.0.146:42737, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:42737
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:37939', name: tcp://10.7.0.146:37939, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:37939
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:43837', name: tcp://10.7.0.146:43837, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:43837
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:46505', name: tcp://10.7.0.146:46505, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:46505
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:42339', name: tcp://10.7.0.146:42339, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:42339
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:35992', name: tcp://10.7.0.146:35992, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:35992
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:35283', name: tcp://10.7.0.146:35283, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:35283
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:46881', name: tcp://10.7.0.146:46881, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:46881
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:40122', name: tcp://10.7.0.146:40122, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:40122
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:43797', name: tcp://10.7.0.146:43797, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:43797
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:42768', name: tcp://10.7.0.146:42768, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:42768
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:35201', name: tcp://10.7.0.146:35201, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:35201
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:40874', name: tcp://10.7.0.146:40874, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:40874
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:34282', name: tcp://10.7.0.146:34282, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:34282
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:44668', name: tcp://10.7.0.146:44668, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:44668
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:46313', name: tcp://10.7.0.146:46313, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:46313
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:43553', name: tcp://10.7.0.146:43553, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:43553
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:33421', name: tcp://10.7.0.146:33421, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:33421
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:44077', name: tcp://10.7.0.146:44077, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:44077
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:46432', name: tcp://10.7.0.146:46432, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:46432
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:43936', name: tcp://10.7.0.146:43936, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:43936
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:37437', name: tcp://10.7.0.146:37437, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:37437
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:40079', name: tcp://10.7.0.146:40079, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:40079
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.146:40987', name: tcp://10.7.0.146:40987, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.146:40987
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:43917', name: tcp://10.7.0.144:43917, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:43917
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:44604', name: tcp://10.7.0.144:44604, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:44604
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:36940', name: tcp://10.7.0.144:36940, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:36940
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:40800', name: tcp://10.7.0.144:40800, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:40800
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:34812', name: tcp://10.7.0.144:34812, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:34812
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:33525', name: tcp://10.7.0.144:33525, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:33525
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:46047', name: tcp://10.7.0.144:46047, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:46047
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:43613', name: tcp://10.7.0.144:43613, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:43613
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:46005', name: tcp://10.7.0.144:46005, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:46005
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:46203', name: tcp://10.7.0.144:46203, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:46203
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:35020', name: tcp://10.7.0.144:35020, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:35020
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:35906', name: tcp://10.7.0.144:35906, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:35906
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:34695', name: tcp://10.7.0.144:34695, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:34695
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:46724', name: tcp://10.7.0.144:46724, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:46724
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:35527', name: tcp://10.7.0.144:35527, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:35527
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:38549', name: tcp://10.7.0.144:38549, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:38549
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:44858', name: tcp://10.7.0.144:44858, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:44858
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:33226', name: tcp://10.7.0.144:33226, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:33226
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:35535', name: tcp://10.7.0.144:35535, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:35535
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:34136', name: tcp://10.7.0.144:34136, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:34136
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:44795', name: tcp://10.7.0.144:44795, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:44795
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:43946', name: tcp://10.7.0.144:43946, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:43946
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:40340', name: tcp://10.7.0.144:40340, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:40340
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:36754', name: tcp://10.7.0.144:36754, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:36754
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:39648', name: tcp://10.7.0.142:39648, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:39648
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:44918', name: tcp://10.7.0.142:44918, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:44918
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:33727', name: tcp://10.7.0.142:33727, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:33727
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:39358', name: tcp://10.7.0.142:39358, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:39358
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:42764', name: tcp://10.7.0.142:42764, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:42764
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:33720', name: tcp://10.7.0.142:33720, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:33720
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:45848', name: tcp://10.7.0.142:45848, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:45848
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:43982', name: tcp://10.7.0.142:43982, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:43982
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:36008', name: tcp://10.7.0.142:36008, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:36008
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:40542', name: tcp://10.7.0.142:40542, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:40542
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:40823', name: tcp://10.7.0.142:40823, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:40823
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:43397', name: tcp://10.7.0.142:43397, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:43397
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:36468', name: tcp://10.7.0.142:36468, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:36468
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:39579', name: tcp://10.7.0.145:39579, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:39579
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:39463', name: tcp://10.7.0.145:39463, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:39463
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:34630', name: tcp://10.7.0.145:34630, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:34630
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:33822', name: tcp://10.7.0.145:33822, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:33822
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:37745', name: tcp://10.7.0.142:37745, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:37745
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:38316', name: tcp://10.7.0.145:38316, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:38316
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:40637', name: tcp://10.7.0.145:40637, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:40637
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:35955', name: tcp://10.7.0.145:35955, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:35955
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:33868', name: tcp://10.7.0.145:33868, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:33868
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:44614', name: tcp://10.7.0.145:44614, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:44614
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:39866', name: tcp://10.7.0.145:39866, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:39866
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:32975', name: tcp://10.7.0.145:32975, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:32975
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:41689', name: tcp://10.7.0.145:41689, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:41689
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:43710', name: tcp://10.7.0.142:43710, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:43710
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:42786', name: tcp://10.7.0.145:42786, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:42786
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:38397', name: tcp://10.7.0.145:38397, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:38397
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:38555', name: tcp://10.7.0.142:38555, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:38555
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:40137', name: tcp://10.7.0.142:40137, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:40137
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:39957', name: tcp://10.7.0.145:39957, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:39957
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:33596', name: tcp://10.7.0.145:33596, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:33596
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:45180', name: tcp://10.7.0.144:45180, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:45180
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:45325', name: tcp://10.7.0.144:45325, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:45325
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:40264', name: tcp://10.7.0.142:40264, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:40264
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:42995', name: tcp://10.7.0.142:42995, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:42995
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:45520', name: tcp://10.7.0.145:45520, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:45520
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:43535', name: tcp://10.7.0.142:43535, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:43535
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:39914', name: tcp://10.7.0.145:39914, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:39914
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:35624', name: tcp://10.7.0.145:35624, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:35624
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:45734', name: tcp://10.7.0.145:45734, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:45734
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:34149', name: tcp://10.7.0.142:34149, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:34149
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:37546', name: tcp://10.7.0.142:37546, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:37546
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:43625', name: tcp://10.7.0.145:43625, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:43625
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:35132', name: tcp://10.7.0.142:35132, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:35132
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:33956', name: tcp://10.7.0.142:33956, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:33956
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:35529', name: tcp://10.7.0.145:35529, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:35529
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:39333', name: tcp://10.7.0.145:39333, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:39333
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:34936', name: tcp://10.7.0.145:34936, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:34936
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:36953', name: tcp://10.7.0.145:36953, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:36953
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:45381', name: tcp://10.7.0.145:45381, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:45381
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:37926', name: tcp://10.7.0.145:37926, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:37926
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:37542', name: tcp://10.7.0.145:37542, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:37542
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:37292', name: tcp://10.7.0.145:37292, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:37292
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.145:45659', name: tcp://10.7.0.145:45659, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.145:45659
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:40844', name: tcp://10.7.0.142:40844, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:40844
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:38768', name: tcp://10.7.0.142:38768, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:38768
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:46520', name: tcp://10.7.0.142:46520, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:46520
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:45362', name: tcp://10.7.0.142:45362, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:45362
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:44145', name: tcp://10.7.0.144:44145, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:44145
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:44095', name: tcp://10.7.0.144:44095, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:44095
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:40938', name: tcp://10.7.0.144:40938, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:40938
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.144:38084', name: tcp://10.7.0.144:38084, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.144:38084
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:41542', name: tcp://10.7.0.142:41542, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:41542
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.142:40426', name: tcp://10.7.0.142:40426, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.142:40426
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-8b6bd432-0ba2-11ee-b688-0894efae592c
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Run out-of-band function 'lambda'
+distributed.scheduler - INFO - Scheduler closing...
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:38613', name: tcp://10.7.0.146:38613, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:38613
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:42737', name: tcp://10.7.0.146:42737, status: closing, memory: 4, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:42737
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:37437', name: tcp://10.7.0.146:37437, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:37437
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:38200', name: tcp://10.7.0.146:38200, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:38200
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:35992', name: tcp://10.7.0.146:35992, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:35992
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:36008', name: tcp://10.7.0.142:36008, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:36008
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:40987', name: tcp://10.7.0.146:40987, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:40987
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:33720', name: tcp://10.7.0.142:33720, status: closing, memory: 4, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:33720
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:40874', name: tcp://10.7.0.146:40874, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:40874
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:42995', name: tcp://10.7.0.142:42995, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:42995
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:40079', name: tcp://10.7.0.146:40079, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:40079
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:37745', name: tcp://10.7.0.142:37745, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:37745
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:40122', name: tcp://10.7.0.146:40122, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:40122
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:38768', name: tcp://10.7.0.142:38768, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:38768
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:45325', name: tcp://10.7.0.144:45325, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:45325
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:33727', name: tcp://10.7.0.142:33727, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:33727
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:42764', name: tcp://10.7.0.142:42764, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:42764
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:46520', name: tcp://10.7.0.142:46520, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:46520
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:35201', name: tcp://10.7.0.146:35201, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:35201
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:33525', name: tcp://10.7.0.144:33525, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:33525
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:34149', name: tcp://10.7.0.142:34149, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:34149
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:33421', name: tcp://10.7.0.146:33421, status: closing, memory: 5, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:33421
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:43917', name: tcp://10.7.0.144:43917, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:43917
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:35955', name: tcp://10.7.0.145:35955, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:35955
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:40844', name: tcp://10.7.0.142:40844, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:40844
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:38565', name: tcp://10.7.0.146:38565, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:38565
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:34695', name: tcp://10.7.0.144:34695, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:34695
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:41542', name: tcp://10.7.0.142:41542, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:41542
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:45848', name: tcp://10.7.0.142:45848, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:45848
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:35535', name: tcp://10.7.0.144:35535, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:35535
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:37939', name: tcp://10.7.0.146:37939, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:37939
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:35132', name: tcp://10.7.0.142:35132, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:35132
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:44145', name: tcp://10.7.0.144:44145, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:44145
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:38084', name: tcp://10.7.0.144:38084, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:38084
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:43797', name: tcp://10.7.0.146:43797, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:43797
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:43837', name: tcp://10.7.0.146:43837, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:43837
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:40938', name: tcp://10.7.0.144:40938, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:40938
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:35624', name: tcp://10.7.0.145:35624, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:35624
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:45362', name: tcp://10.7.0.142:45362, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:45362
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:46881', name: tcp://10.7.0.146:46881, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:46881
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:42810', name: tcp://10.7.0.146:42810, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:42810
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:39358', name: tcp://10.7.0.142:39358, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:39358
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:34282', name: tcp://10.7.0.146:34282, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:34282
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:33226', name: tcp://10.7.0.144:33226, status: closing, memory: 4, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:33226
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:43613', name: tcp://10.7.0.144:43613, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:43613
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:44095', name: tcp://10.7.0.144:44095, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:44095
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:39463', name: tcp://10.7.0.145:39463, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:39463
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:32975', name: tcp://10.7.0.145:32975, status: closing, memory: 4, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:32975
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:40823', name: tcp://10.7.0.142:40823, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:40823
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:37542', name: tcp://10.7.0.145:37542, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:37542
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:35906', name: tcp://10.7.0.144:35906, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:35906
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:44604', name: tcp://10.7.0.144:44604, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:44604
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:39648', name: tcp://10.7.0.142:39648, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:39648
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:43625', name: tcp://10.7.0.145:43625, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:43625
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:46432', name: tcp://10.7.0.146:46432, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:46432
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:35020', name: tcp://10.7.0.144:35020, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:35020
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:36953', name: tcp://10.7.0.145:36953, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:36953
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:45904', name: tcp://10.7.0.146:45904, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:45904
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:38555', name: tcp://10.7.0.142:38555, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:38555
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:43982', name: tcp://10.7.0.142:43982, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:43982
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:44077', name: tcp://10.7.0.146:44077, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:44077
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:40426', name: tcp://10.7.0.142:40426, status: closing, memory: 4, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:40426
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:40542', name: tcp://10.7.0.142:40542, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:40542
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:43535', name: tcp://10.7.0.142:43535, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:43535
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:45381', name: tcp://10.7.0.145:45381, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:45381
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:34812', name: tcp://10.7.0.144:34812, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:34812
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:43553', name: tcp://10.7.0.146:43553, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:43553
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:46047', name: tcp://10.7.0.144:46047, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:46047
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:43397', name: tcp://10.7.0.142:43397, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:43397
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:36754', name: tcp://10.7.0.144:36754, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:36754
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:45659', name: tcp://10.7.0.145:45659, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:45659
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:40137', name: tcp://10.7.0.142:40137, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:40137
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:44858', name: tcp://10.7.0.144:44858, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:44858
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:46313', name: tcp://10.7.0.146:46313, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:46313
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:34936', name: tcp://10.7.0.145:34936, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:34936
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:35529', name: tcp://10.7.0.145:35529, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:35529
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:43946', name: tcp://10.7.0.144:43946, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:43946
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:33868', name: tcp://10.7.0.145:33868, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:33868
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:46561', name: tcp://10.7.0.146:46561, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:46561
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:42786', name: tcp://10.7.0.145:42786, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:42786
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:42768', name: tcp://10.7.0.146:42768, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:42768
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:44795', name: tcp://10.7.0.144:44795, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:44795
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:40264', name: tcp://10.7.0.142:40264, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:40264
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:37546', name: tcp://10.7.0.142:37546, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:37546
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:45734', name: tcp://10.7.0.145:45734, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:45734
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:45180', name: tcp://10.7.0.144:45180, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:45180
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:33956', name: tcp://10.7.0.142:33956, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:33956
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:43710', name: tcp://10.7.0.142:43710, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:43710
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:44668', name: tcp://10.7.0.146:44668, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:44668
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:39333', name: tcp://10.7.0.145:39333, status: closing, memory: 6, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:39333
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:35283', name: tcp://10.7.0.146:35283, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:35283
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:38549', name: tcp://10.7.0.144:38549, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:38549
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:40340', name: tcp://10.7.0.144:40340, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:40340
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:37292', name: tcp://10.7.0.145:37292, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:37292
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:34136', name: tcp://10.7.0.144:34136, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:34136
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:46005', name: tcp://10.7.0.144:46005, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:46005
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:39866', name: tcp://10.7.0.145:39866, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:39866
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:44918', name: tcp://10.7.0.142:44918, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:44918
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:40800', name: tcp://10.7.0.144:40800, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:40800
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:46724', name: tcp://10.7.0.144:46724, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:46724
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:39957', name: tcp://10.7.0.145:39957, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:39957
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:36940', name: tcp://10.7.0.144:36940, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:36940
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:43936', name: tcp://10.7.0.146:43936, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:43936
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:42339', name: tcp://10.7.0.146:42339, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:42339
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:33596', name: tcp://10.7.0.145:33596, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:33596
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:35527', name: tcp://10.7.0.144:35527, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:35527
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:39579', name: tcp://10.7.0.145:39579, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:39579
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:34630', name: tcp://10.7.0.145:34630, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:34630
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:37926', name: tcp://10.7.0.145:37926, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:37926
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.144:46203', name: tcp://10.7.0.144:46203, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.144:46203
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:44614', name: tcp://10.7.0.145:44614, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:44614
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:33822', name: tcp://10.7.0.145:33822, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:33822
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.142:36468', name: tcp://10.7.0.142:36468, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.142:36468
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:41689', name: tcp://10.7.0.145:41689, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:41689
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:45520', name: tcp://10.7.0.145:45520, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:45520
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:38316', name: tcp://10.7.0.145:38316, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:38316
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:40637', name: tcp://10.7.0.145:40637, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:40637
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.146:46505', name: tcp://10.7.0.146:46505, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.146:46505
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:38397', name: tcp://10.7.0.145:38397, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:38397
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.145:39914', name: tcp://10.7.0.145:39914, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.145:39914
+distributed.scheduler - INFO - Lost all workers
+distributed.scheduler - INFO - Scheduler closing all comms
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Scheduler->Client local=tcp://10.7.0.141:8786 remote=tcp://10.7.0.141:49708>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.scheduler - INFO - End scheduler at 'tcp://10.7.0.141:8786'

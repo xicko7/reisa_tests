@@ -1,0 +1,87 @@
+Slurm job started at 15/06/2023_15:33:21
+
+In transit.
+Initing Ray (1 head node + 8 worker nodes + 16 simulation nodes) on nodes: 
+	node001 node002 node003 node005 node006 node007 node009 node010 node011 node013 node014 node017 node018 node019 node021 node022 node161 node165 node166 node170 node172 node173 node175 node179 node180
+Head node: 10.7.0.1:6379
+
+Environment loaded for PDI version 1.6.0
+
+RAY_DEPLOY_TIME:     50.15658
+2023-06-15 15:34:14,633	INFO packaging.py:520 -- Creating a file package for local directory '/gpfs/users/fernandezx/internship/reisa_tests/E2/REISA/derivative/P512-SN16-LS1-GS536-I12-AN8-D2023-06-15_14:18:59'.
+2023-06-15 15:34:14,655	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_3cb545507ba6478d.zip' (0.34MiB) to Ray cluster...
+2023-06-15 15:34:14,671	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_3cb545507ba6478d.zip'.
+RAY_INIT_TIME:       4.81497
+GLOBAL_PUT_TIME:     0.15433096885681152 (avg:0.01286)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     16.656873863999998 (avg: 1.388072822000000)
+SIM_WTHOUT_PDI:      7.910707162000003 (avg: 0.659225596833334)
+PDI_DELAY:           8.746166701999995 (avg: 0.728847225166666)
+
+GLOBAL_SIZE_(GiB):   512
+LOCAL_SIZE_(MiB):    1
+ITERATIONS:          12
+
+MPI_PER_NODE:        32
+MPI_PARALLELISM:     512
+
+WORKER_NODES:        8
+CPUS_PER_WORKER:     30
+WORKER_PARALLELISM:  240
+
+
+SLURM_JOB_ID:        4679959
+[2m[33m(raylet, ip=10.6.0.3)[0m [2023-06-15 15:34:39,561 E 33717 33717] logging.cc:97: Unhandled exception: St12system_error. what(): Resource temporarily unavailable
+[2m[33m(raylet, ip=10.6.0.3)[0m [2023-06-15 15:34:39,648 E 33717 33717] logging.cc:104: Stack trace: 
+[2m[33m(raylet, ip=10.6.0.3)[0m  /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(+0xd6b46a) [0x2b4f9c9f146a] ray::operator<<()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(+0xd6dc28) [0x2b4f9c9f3c28] ray::TerminateHandler()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/softs/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-mpv3i3uebzvnvz7wxn6ywysd5hftycj3/lib64/libstdc++.so.6(+0xa7ce6) [0x2b4f9d211ce6] __cxxabiv1::__terminate()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/softs/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-mpv3i3uebzvnvz7wxn6ywysd5hftycj3/lib64/libstdc++.so.6(+0xa7d51) [0x2b4f9d211d51]
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/softs/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-mpv3i3uebzvnvz7wxn6ywysd5hftycj3/lib64/libstdc++.so.6(+0xa7fd5) [0x2b4f9d211fd5]
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(+0x496989) [0x2b4f9c11c989] std::__throw_system_error()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(+0xea5719) [0x2b4f9cb2b719]
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImpl22InitializeSystemConfigEv+0xeb) [0x2b4f9c2fb64b] ray::core::CoreWorkerProcessImpl::InitializeSystemConfig()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImplC2ERKNS0_17CoreWorkerOptionsE+0x1d0) [0x2b4f9c2fd560] ray::core::CoreWorkerProcessImpl::CoreWorkerProcessImpl()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(_ZN3ray4core17CoreWorkerProcess10InitializeERKNS0_17CoreWorkerOptionsE+0xcf) [0x2b4f9c2fe96f] ray::core::CoreWorkerProcess::Initialize()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(+0x531474) [0x2b4f9c1b7474] __pyx_pw_3ray_7_raylet_10CoreWorker_1__cinit__()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_raylet.so(+0x5324e3) [0x2b4f9c1b84e3] __pyx_tp_new_3ray_7_raylet_CoreWorker()
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(+0x1261a6) [0x2b4f924fa1a6] type_call
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(_PyObject_MakeTpCall+0x80) [0x2b4f92497000] _PyObject_MakeTpCall
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(_PyEval_EvalFrameDefault+0xac34) [0x2b4f924440d4] _PyEval_EvalFrameDefault
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(+0x1b3570) [0x2b4f92587570] _PyEval_Vector
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(_PyEval_EvalFrameDefault+0x6802) [0x2b4f9243fca2] _PyEval_EvalFrameDefault
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(PyEval_EvalCode+0xbc) [0x2b4f925873ac] PyEval_EvalCode
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(+0x1f755d) [0x2b4f925cb55d] run_mod
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(_PyRun_SimpleFileObject+0x14f) [0x2b4f925cc5df] _PyRun_SimpleFileObject
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(_PyRun_AnyFileObject+0x3b) [0x2b4f925ccb7b] _PyRun_AnyFileObject
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(Py_RunMain+0x433) [0x2b4f925eb523] Py_RunMain
+[2m[33m(raylet, ip=10.6.0.3)[0m /gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/libpython3.10.so.1.0(Py_BytesMain+0x47) [0x2b4f925ebda7] Py_BytesMain
+[2m[33m(raylet, ip=10.6.0.3)[0m /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b4f9370d555] __libc_start_main
+[2m[33m(raylet, ip=10.6.0.3)[0m ray::IDLE() [0x40112e]
+[2m[33m(raylet, ip=10.6.0.3)[0m 
+[2m[33m(raylet, ip=10.6.0.3)[0m *** SIGABRT received at time=1686836079 on cpu 5 ***
+[2m[33m(raylet, ip=10.6.0.3)[0m PC: @     0x2b4f93721387  (unknown)  raise
+[2m[33m(raylet, ip=10.6.0.3)[0m     @     0x2b4f92dd5630  539103824  (unknown)
+[2m[33m(raylet, ip=10.6.0.3)[0m     @     0x2b4f9d211ce6  (unknown)  __cxxabiv1::__terminate()
+[2m[33m(raylet, ip=10.6.0.3)[0m     @     0x2b4f9d211f00  (unknown)  (unknown)
+[2m[33m(raylet, ip=10.6.0.3)[0m [2023-06-15 15:34:39,651 E 33717 33717] logging.cc:361: *** SIGABRT received at time=1686836079 on cpu 5 ***
+[2m[33m(raylet, ip=10.6.0.3)[0m [2023-06-15 15:34:39,651 E 33717 33717] logging.cc:361: PC: @     0x2b4f93721387  (unknown)  raise
+[2m[33m(raylet, ip=10.6.0.3)[0m [2023-06-15 15:34:39,651 E 33717 33717] logging.cc:361:     @     0x2b4f92dd5630  539103824  (unknown)
+[2m[33m(raylet, ip=10.6.0.3)[0m [2023-06-15 15:34:39,651 E 33717 33717] logging.cc:361:     @     0x2b4f9d211ce6  (unknown)  __cxxabiv1::__terminate()
+[2m[33m(raylet, ip=10.6.0.3)[0m [2023-06-15 15:34:39,652 E 33717 33717] logging.cc:361:     @     0x2b4f9d211f00  (unknown)  (unknown)
+[2m[33m(raylet, ip=10.6.0.3)[0m Fatal Python error: Aborted
+[2m[33m(raylet, ip=10.6.0.3)[0m 
+[2m[33m(raylet, ip=10.6.0.3)[0m Stack (most recent call first):
+[2m[33m(raylet, ip=10.6.0.3)[0m   File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_private/worker.py", line 2189 in connect
+[2m[33m(raylet, ip=10.6.0.3)[0m   File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_private/workers/default_worker.py", line 234 in <module>
+[2m[33m(raylet, ip=10.6.0.3)[0m 
+[2m[33m(raylet, ip=10.6.0.3)[0m Extension modules: msgpack._cmsgpack, setproctitle, google._upb._message, psutil._psutil_linux, psutil._psutil_posix, grpc._cython.cygrpc, yaml._yaml, ray._raylet, charset_normalizer.md (total: 9)
+[2m[36m(pid=32906, ip=10.6.0.3)[0m [2023-06-15 15:34:39,654 E 32906 34213] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+[2m[36m(pid=32864, ip=10.6.0.3)[0m [2023-06-15 15:34:39,651 E 32864 34150] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+[2m[36m(pid=32597, ip=10.6.0.3)[0m [2023-06-15 15:34:39,650 E 32597 34091] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+[2m[36m(pid=32596, ip=10.6.0.3)[0m [2023-06-15 15:34:39,651 E 32596 34100] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+[2m[36m(pid=32700, ip=10.6.0.3)[0m [2023-06-15 15:34:39,651 E 32700 34016] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+[2m[36m(pid=32698, ip=10.6.0.3)[0m [2023-06-15 15:34:39,648 E 32698 33969] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+EST_ANALYTICS_TIME:  18.05475 (avg:1.50456)
+
+Slurm job finished at 15/06/2023_15:34:41

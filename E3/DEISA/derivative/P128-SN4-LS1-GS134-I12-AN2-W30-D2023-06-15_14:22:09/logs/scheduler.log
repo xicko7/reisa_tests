@@ -1,0 +1,953 @@
+distributed.scheduler - INFO - -----------------------------------------------
+distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+distributed.scheduler - INFO - -----------------------------------------------
+distributed.scheduler - INFO - Clear task state
+distributed.scheduler - INFO -   Scheduler at:       tcp://10.7.0.1:8786
+distributed.scheduler - INFO -   dashboard at:             10.7.0.1:8787
+distributed.scheduler - INFO - Receive client connection: Client-5de58c82-0bb6-11ee-81ff-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5c409-0bb6-11ee-81fd-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5c2be-0bb6-11ee-820d-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5aacc-0bb6-11ee-81f7-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5d0a8-0bb6-11ee-8204-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5bb36-0bb6-11ee-820f-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5975a-0bb6-11ee-81f5-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5c3bc-0bb6-11ee-820e-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5a670-0bb6-11ee-8200-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de57293-0bb6-11ee-9009-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58b40-0bb6-11ee-9010-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f643-0bb6-11ee-9301-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59f71-0bb6-11ee-8fff-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5b132-0bb6-11ee-8205-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5a711-0bb6-11ee-81fa-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5d712-0bb6-11ee-9300-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f29d-0bb6-11ee-9306-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59c5b-0bb6-11ee-8ffe-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5ed4d-0bb6-11ee-9302-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f83c-0bb6-11ee-92f7-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58b9c-0bb6-11ee-8ff7-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59e00-0bb6-11ee-8ffb-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de582b8-0bb6-11ee-9007-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f7a1-0bb6-11ee-9305-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de597de-0bb6-11ee-8ff4-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5a219-0bb6-11ee-820b-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5af17-0bb6-11ee-820c-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59f4e-0bb6-11ee-8ff2-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5910c-0bb6-11ee-8ff3-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59ca7-0bb6-11ee-8208-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5ea6c-0bb6-11ee-92f9-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58f33-0bb6-11ee-900c-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59376-0bb6-11ee-9001-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59f0e-0bb6-11ee-8ff5-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5ca66-0bb6-11ee-8211-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58276-0bb6-11ee-9002-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f935-0bb6-11ee-9303-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5da23-0bb6-11ee-92ea-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5e864-0bb6-11ee-92fa-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5acb5-0bb6-11ee-8201-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5c46e-0bb6-11ee-8209-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f261-0bb6-11ee-92fd-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5e142-0bb6-11ee-92f3-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5fbce-0bb6-11ee-92f0-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de578bc-0bb6-11ee-900f-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58e0c-0bb6-11ee-8ff6-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5a89b-0bb6-11ee-8206-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58b3e-0bb6-11ee-900a-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5e563-0bb6-11ee-9307-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5fbae-0bb6-11ee-92ee-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de598b1-0bb6-11ee-9011-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59d03-0bb6-11ee-8ff9-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5ea85-0bb6-11ee-92fc-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5e41e-0bb6-11ee-92ed-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5cb6e-0bb6-11ee-81f6-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5ed5c-0bb6-11ee-92f6-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5c8a7-0bb6-11ee-81fe-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5eb9a-0bb6-11ee-9308-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5e926-0bb6-11ee-92f5-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5c58b-0bb6-11ee-81fc-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f42b-0bb6-11ee-92f4-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5e99b-0bb6-11ee-92f2-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59394-0bb6-11ee-900b-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5bd61-0bb6-11ee-81f4-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58f1c-0bb6-11ee-9000-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f2e4-0bb6-11ee-92ff-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58605-0bb6-11ee-9004-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59177-0bb6-11ee-900d-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59b56-0bb6-11ee-8ff8-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5d618-0bb6-11ee-92f1-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5a3c8-0bb6-11ee-8ffa-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5d869-0bb6-11ee-9304-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f2f0-0bb6-11ee-92ef-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59bdd-0bb6-11ee-8ffc-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5763e-0bb6-11ee-900e-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5ecab-0bb6-11ee-92fe-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5fac1-0bb6-11ee-92f8-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5878c-0bb6-11ee-81f9-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5df00-0bb6-11ee-92fb-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de58eef-0bb6-11ee-81f8-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5922e-0bb6-11ee-820a-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de584fc-0bb6-11ee-9003-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5c81b-0bb6-11ee-81fb-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de595d1-0bb6-11ee-9005-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59cd7-0bb6-11ee-9006-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de59d3b-0bb6-11ee-9008-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5d080-0bb6-11ee-8207-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5a49b-0bb6-11ee-8ffd-0894ef968656
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5909b-0bb6-11ee-8212-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de594fd-0bb6-11ee-8203-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5ce7a-0bb6-11ee-8202-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f232-0bb6-11ee-92eb-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5b608-0bb6-11ee-8213-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5c36f-0bb6-11ee-8210-0894ef968666
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5ef75-0bb6-11ee-92ec-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5de5f063-0bb6-11ee-92e9-0894ef9687ae
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded7fca-0bb6-11ee-a7ad-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded83cc-0bb6-11ee-a7ab-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded6b0f-0bb6-11ee-a7a5-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded785f-0bb6-11ee-a7af-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded86c1-0bb6-11ee-a7a7-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded7b1a-0bb6-11ee-a7b4-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded6fa4-0bb6-11ee-a7c3-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8dfa-0bb6-11ee-a7be-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8956-0bb6-11ee-a7a6-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded7417-0bb6-11ee-a7b2-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded9db2-0bb6-11ee-a7ae-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded800b-0bb6-11ee-a7ba-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded80f4-0bb6-11ee-a7bd-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5dedb7aa-0bb6-11ee-a7a9-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8ceb-0bb6-11ee-a7c2-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8dd6-0bb6-11ee-a7b0-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5def6596-0bb6-11ee-a7b9-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5def54e0-0bb6-11ee-a7ac-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8e4d-0bb6-11ee-a7b1-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded6b9b-0bb6-11ee-a7b3-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded765b-0bb6-11ee-a7aa-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded75b8-0bb6-11ee-a7c1-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8d5d-0bb6-11ee-a7bc-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded7801-0bb6-11ee-a7bb-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5def4332-0bb6-11ee-a7c0-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8d13-0bb6-11ee-a7b7-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded7719-0bb6-11ee-a7a8-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded9141-0bb6-11ee-a7a4-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8535-0bb6-11ee-a7b8-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded8c8e-0bb6-11ee-a7b6-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded769b-0bb6-11ee-a7bf-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-5ded7de2-0bb6-11ee-a7b5-0894ef968740
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:41542', name: tcp://10.7.0.3:41542, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:41542
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:44383', name: tcp://10.7.0.3:44383, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:44383
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:42909', name: tcp://10.7.0.3:42909, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:42909
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:34551', name: tcp://10.7.0.3:34551, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:34551
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:40840', name: tcp://10.7.0.3:40840, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:40840
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:37467', name: tcp://10.7.0.3:37467, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:37467
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:32943', name: tcp://10.7.0.3:32943, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:32943
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:46203', name: tcp://10.7.0.3:46203, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:46203
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:43810', name: tcp://10.7.0.3:43810, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:43810
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:39005', name: tcp://10.7.0.3:39005, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:39005
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:40009', name: tcp://10.7.0.3:40009, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:40009
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:45834', name: tcp://10.7.0.3:45834, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:45834
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:39709', name: tcp://10.7.0.3:39709, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:39709
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:44713', name: tcp://10.7.0.3:44713, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:44713
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:41113', name: tcp://10.7.0.3:41113, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:41113
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:36195', name: tcp://10.7.0.3:36195, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:36195
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:32768', name: tcp://10.7.0.3:32768, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:32768
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:43164', name: tcp://10.7.0.3:43164, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:43164
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:41429', name: tcp://10.7.0.3:41429, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:41429
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:40341', name: tcp://10.7.0.3:40341, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:40341
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:38920', name: tcp://10.7.0.3:38920, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:38920
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:38663', name: tcp://10.7.0.3:38663, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:38663
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:42710', name: tcp://10.7.0.3:42710, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:42710
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:38078', name: tcp://10.7.0.3:38078, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:38078
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:36627', name: tcp://10.7.0.3:36627, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:36627
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:38574', name: tcp://10.7.0.3:38574, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:38574
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:37362', name: tcp://10.7.0.2:37362, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:37362
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:39397', name: tcp://10.7.0.3:39397, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:39397
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:41386', name: tcp://10.7.0.2:41386, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:41386
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:41359', name: tcp://10.7.0.2:41359, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:41359
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:37727', name: tcp://10.7.0.2:37727, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:37727
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:42910', name: tcp://10.7.0.2:42910, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:42910
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:44892', name: tcp://10.7.0.2:44892, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:44892
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:37663', name: tcp://10.7.0.2:37663, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:37663
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:35753', name: tcp://10.7.0.2:35753, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:35753
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:39659', name: tcp://10.7.0.2:39659, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:39659
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:46312', name: tcp://10.7.0.2:46312, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:46312
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:38226', name: tcp://10.7.0.2:38226, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:38226
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:35057', name: tcp://10.7.0.2:35057, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:35057
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:37868', name: tcp://10.7.0.2:37868, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:37868
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:37832', name: tcp://10.7.0.2:37832, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:37832
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:44691', name: tcp://10.7.0.2:44691, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:44691
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:41475', name: tcp://10.7.0.2:41475, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:41475
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:33746', name: tcp://10.7.0.2:33746, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:33746
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:36571', name: tcp://10.7.0.2:36571, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:36571
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:36106', name: tcp://10.7.0.3:36106, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:36106
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:33304', name: tcp://10.7.0.2:33304, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:33304
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:36006', name: tcp://10.7.0.3:36006, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:36006
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:44578', name: tcp://10.7.0.2:44578, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:44578
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:34820', name: tcp://10.7.0.2:34820, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:34820
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:44588', name: tcp://10.7.0.2:44588, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:44588
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.3:46088', name: tcp://10.7.0.3:46088, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.3:46088
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:46627', name: tcp://10.7.0.2:46627, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:46627
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:39555', name: tcp://10.7.0.2:39555, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:39555
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:40273', name: tcp://10.7.0.2:40273, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:40273
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:36264', name: tcp://10.7.0.2:36264, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:36264
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:34447', name: tcp://10.7.0.2:34447, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:34447
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:45054', name: tcp://10.7.0.2:45054, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:45054
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:38830', name: tcp://10.7.0.2:38830, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:38830
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.2:45646', name: tcp://10.7.0.2:45646, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.2:45646
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-671cfa4e-0bb6-11ee-83c1-0894ef968626
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Run out-of-band function 'lambda'
+distributed.scheduler - INFO - Remove client Client-5de5d618-0bb6-11ee-92f1-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5fbae-0bb6-11ee-92ee-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5d869-0bb6-11ee-9304-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5f935-0bb6-11ee-9303-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de59e00-0bb6-11ee-8ffb-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59f4e-0bb6-11ee-8ff2-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59d3b-0bb6-11ee-9008-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5ed4d-0bb6-11ee-9302-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5ecab-0bb6-11ee-92fe-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de57293-0bb6-11ee-9009-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de595d1-0bb6-11ee-9005-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded86c1-0bb6-11ee-a7a7-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de59d03-0bb6-11ee-8ff9-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5def54e0-0bb6-11ee-a7ac-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5df00-0bb6-11ee-92fb-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5bb36-0bb6-11ee-820f-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5763e-0bb6-11ee-900e-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5d712-0bb6-11ee-9300-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded765b-0bb6-11ee-a7aa-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded8dd6-0bb6-11ee-a7b0-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5c8a7-0bb6-11ee-81fe-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de59c5b-0bb6-11ee-8ffe-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5da23-0bb6-11ee-92ea-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de58276-0bb6-11ee-9002-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de58eef-0bb6-11ee-81f8-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de59b56-0bb6-11ee-8ff8-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded7b1a-0bb6-11ee-a7b4-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded7de2-0bb6-11ee-a7b5-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de58f33-0bb6-11ee-900c-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded7fca-0bb6-11ee-a7ad-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded7417-0bb6-11ee-a7b2-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5f7a1-0bb6-11ee-9305-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5ea85-0bb6-11ee-92fc-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de59394-0bb6-11ee-900b-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded8535-0bb6-11ee-a7b8-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5fbce-0bb6-11ee-92f0-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5e926-0bb6-11ee-92f5-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded7801-0bb6-11ee-a7bb-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded9141-0bb6-11ee-a7a4-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded800b-0bb6-11ee-a7ba-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5dedb7aa-0bb6-11ee-a7a9-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5ef75-0bb6-11ee-92ec-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8d5d-0bb6-11ee-a7bc-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de59bdd-0bb6-11ee-8ffc-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59f71-0bb6-11ee-8fff-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f2f0-0bb6-11ee-92ef-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de58e0c-0bb6-11ee-8ff6-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded7719-0bb6-11ee-a7a8-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de597de-0bb6-11ee-8ff4-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59376-0bb6-11ee-9001-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5878c-0bb6-11ee-81f9-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de58b40-0bb6-11ee-9010-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f643-0bb6-11ee-9301-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded83cc-0bb6-11ee-a7ab-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de598b1-0bb6-11ee-9011-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5def4332-0bb6-11ee-a7c0-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5f83c-0bb6-11ee-92f7-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5a219-0bb6-11ee-820b-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de578bc-0bb6-11ee-900f-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de58b3e-0bb6-11ee-900a-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5a49b-0bb6-11ee-8ffd-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f261-0bb6-11ee-92fd-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5eb9a-0bb6-11ee-9308-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8c8e-0bb6-11ee-a7b6-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5e864-0bb6-11ee-92fa-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5def6596-0bb6-11ee-a7b9-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5a89b-0bb6-11ee-8206-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5f29d-0bb6-11ee-9306-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5922e-0bb6-11ee-820a-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5c3bc-0bb6-11ee-820e-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de58f1c-0bb6-11ee-9000-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f2e4-0bb6-11ee-92ff-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5c409-0bb6-11ee-81fd-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5ea6c-0bb6-11ee-92f9-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5e41e-0bb6-11ee-92ed-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5d618-0bb6-11ee-92f1-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5ed5c-0bb6-11ee-92f6-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de582b8-0bb6-11ee-9007-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5e563-0bb6-11ee-9307-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8dfa-0bb6-11ee-a7be-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded769b-0bb6-11ee-a7bf-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de59cd7-0bb6-11ee-9006-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5c58b-0bb6-11ee-81fc-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5c46e-0bb6-11ee-8209-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de584fc-0bb6-11ee-9003-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5e99b-0bb6-11ee-92f2-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8ceb-0bb6-11ee-a7c2-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5c36f-0bb6-11ee-8210-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5af17-0bb6-11ee-820c-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded6b9b-0bb6-11ee-a7b3-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5acb5-0bb6-11ee-8201-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded6b0f-0bb6-11ee-a7a5-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5bd61-0bb6-11ee-81f4-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de58605-0bb6-11ee-9004-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59ca7-0bb6-11ee-8208-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded9db2-0bb6-11ee-a7ae-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5d080-0bb6-11ee-8207-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de594fd-0bb6-11ee-8203-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5c81b-0bb6-11ee-81fb-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded785f-0bb6-11ee-a7af-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de58b9c-0bb6-11ee-8ff7-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f232-0bb6-11ee-92eb-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de59f0e-0bb6-11ee-8ff5-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5a711-0bb6-11ee-81fa-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5ce7a-0bb6-11ee-8202-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5b608-0bb6-11ee-8213-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5c2be-0bb6-11ee-820d-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de58c82-0bb6-11ee-81ff-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5ca66-0bb6-11ee-8211-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de59177-0bb6-11ee-900d-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5909b-0bb6-11ee-8212-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5fbae-0bb6-11ee-92ee-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5d0a8-0bb6-11ee-8204-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5f42b-0bb6-11ee-92f4-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded80f4-0bb6-11ee-a7bd-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded8e4d-0bb6-11ee-a7b1-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5cb6e-0bb6-11ee-81f6-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded6fa4-0bb6-11ee-a7c3-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5975a-0bb6-11ee-81f5-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5fac1-0bb6-11ee-92f8-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8956-0bb6-11ee-a7a6-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5aacc-0bb6-11ee-81f7-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5a670-0bb6-11ee-8200-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5b132-0bb6-11ee-8205-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded8d13-0bb6-11ee-a7b7-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5e142-0bb6-11ee-92f3-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5f063-0bb6-11ee-92e9-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5a3c8-0bb6-11ee-8ffa-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5910c-0bb6-11ee-8ff3-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded75b8-0bb6-11ee-a7c1-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5d869-0bb6-11ee-9304-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5f935-0bb6-11ee-9303-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de59e00-0bb6-11ee-8ffb-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59f4e-0bb6-11ee-8ff2-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59d3b-0bb6-11ee-9008-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5ed4d-0bb6-11ee-9302-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5ecab-0bb6-11ee-92fe-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de57293-0bb6-11ee-9009-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de595d1-0bb6-11ee-9005-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded86c1-0bb6-11ee-a7a7-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de59d03-0bb6-11ee-8ff9-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5def54e0-0bb6-11ee-a7ac-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5df00-0bb6-11ee-92fb-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5bb36-0bb6-11ee-820f-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5763e-0bb6-11ee-900e-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5d712-0bb6-11ee-9300-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded765b-0bb6-11ee-a7aa-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded8dd6-0bb6-11ee-a7b0-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5c8a7-0bb6-11ee-81fe-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de59c5b-0bb6-11ee-8ffe-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5da23-0bb6-11ee-92ea-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de58276-0bb6-11ee-9002-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de58eef-0bb6-11ee-81f8-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de59b56-0bb6-11ee-8ff8-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded7b1a-0bb6-11ee-a7b4-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded7de2-0bb6-11ee-a7b5-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de58f33-0bb6-11ee-900c-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded7fca-0bb6-11ee-a7ad-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded7417-0bb6-11ee-a7b2-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5f7a1-0bb6-11ee-9305-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5ea85-0bb6-11ee-92fc-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de59394-0bb6-11ee-900b-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded8535-0bb6-11ee-a7b8-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5fbce-0bb6-11ee-92f0-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5e926-0bb6-11ee-92f5-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded7801-0bb6-11ee-a7bb-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded9141-0bb6-11ee-a7a4-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded800b-0bb6-11ee-a7ba-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5dedb7aa-0bb6-11ee-a7a9-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5ef75-0bb6-11ee-92ec-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8d5d-0bb6-11ee-a7bc-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de59bdd-0bb6-11ee-8ffc-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59f71-0bb6-11ee-8fff-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f2f0-0bb6-11ee-92ef-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de58e0c-0bb6-11ee-8ff6-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded7719-0bb6-11ee-a7a8-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de597de-0bb6-11ee-8ff4-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59376-0bb6-11ee-9001-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5878c-0bb6-11ee-81f9-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de58b40-0bb6-11ee-9010-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f643-0bb6-11ee-9301-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded83cc-0bb6-11ee-a7ab-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de598b1-0bb6-11ee-9011-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5def4332-0bb6-11ee-a7c0-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5f83c-0bb6-11ee-92f7-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5a219-0bb6-11ee-820b-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de578bc-0bb6-11ee-900f-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de58b3e-0bb6-11ee-900a-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5a49b-0bb6-11ee-8ffd-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f261-0bb6-11ee-92fd-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5eb9a-0bb6-11ee-9308-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8c8e-0bb6-11ee-a7b6-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5e864-0bb6-11ee-92fa-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5def6596-0bb6-11ee-a7b9-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5a89b-0bb6-11ee-8206-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5f29d-0bb6-11ee-9306-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5922e-0bb6-11ee-820a-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5c3bc-0bb6-11ee-820e-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de58f1c-0bb6-11ee-9000-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f2e4-0bb6-11ee-92ff-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5c409-0bb6-11ee-81fd-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5ea6c-0bb6-11ee-92f9-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5e41e-0bb6-11ee-92ed-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5ed5c-0bb6-11ee-92f6-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de582b8-0bb6-11ee-9007-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5e563-0bb6-11ee-9307-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8dfa-0bb6-11ee-a7be-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded769b-0bb6-11ee-a7bf-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de59cd7-0bb6-11ee-9006-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5c58b-0bb6-11ee-81fc-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5c46e-0bb6-11ee-8209-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de584fc-0bb6-11ee-9003-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5e99b-0bb6-11ee-92f2-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8ceb-0bb6-11ee-a7c2-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5c36f-0bb6-11ee-8210-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5af17-0bb6-11ee-820c-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded6b9b-0bb6-11ee-a7b3-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5acb5-0bb6-11ee-8201-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded6b0f-0bb6-11ee-a7a5-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5bd61-0bb6-11ee-81f4-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de58605-0bb6-11ee-9004-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de59ca7-0bb6-11ee-8208-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded9db2-0bb6-11ee-a7ae-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5d080-0bb6-11ee-8207-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de594fd-0bb6-11ee-8203-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5c81b-0bb6-11ee-81fb-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded785f-0bb6-11ee-a7af-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de58b9c-0bb6-11ee-8ff7-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5f232-0bb6-11ee-92eb-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de59f0e-0bb6-11ee-8ff5-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5a711-0bb6-11ee-81fa-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5ce7a-0bb6-11ee-8202-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5b608-0bb6-11ee-8213-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5c2be-0bb6-11ee-820d-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de58c82-0bb6-11ee-81ff-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5ca66-0bb6-11ee-8211-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de59177-0bb6-11ee-900d-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5909b-0bb6-11ee-8212-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5d0a8-0bb6-11ee-8204-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5f42b-0bb6-11ee-92f4-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded80f4-0bb6-11ee-a7bd-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5ded8e4d-0bb6-11ee-a7b1-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5cb6e-0bb6-11ee-81f6-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded6fa4-0bb6-11ee-a7c3-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5975a-0bb6-11ee-81f5-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5fac1-0bb6-11ee-92f8-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5ded8956-0bb6-11ee-a7a6-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5aacc-0bb6-11ee-81f7-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5a670-0bb6-11ee-8200-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5de5b132-0bb6-11ee-8205-0894ef968666
+distributed.scheduler - INFO - Remove client Client-5ded8d13-0bb6-11ee-a7b7-0894ef968740
+distributed.scheduler - INFO - Remove client Client-5de5e142-0bb6-11ee-92f3-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5f063-0bb6-11ee-92e9-0894ef9687ae
+distributed.scheduler - INFO - Remove client Client-5de5a3c8-0bb6-11ee-8ffa-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5de5910c-0bb6-11ee-8ff3-0894ef968656
+distributed.scheduler - INFO - Remove client Client-5ded75b8-0bb6-11ee-a7c1-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5d618-0bb6-11ee-92f1-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5fbae-0bb6-11ee-92ee-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5d869-0bb6-11ee-9304-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5f935-0bb6-11ee-9303-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de59e00-0bb6-11ee-8ffb-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de59f4e-0bb6-11ee-8ff2-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de59d3b-0bb6-11ee-9008-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5ed4d-0bb6-11ee-9302-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5ecab-0bb6-11ee-92fe-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de57293-0bb6-11ee-9009-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de595d1-0bb6-11ee-9005-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5ded86c1-0bb6-11ee-a7a7-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de59d03-0bb6-11ee-8ff9-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5def54e0-0bb6-11ee-a7ac-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5df00-0bb6-11ee-92fb-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5bb36-0bb6-11ee-820f-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5763e-0bb6-11ee-900e-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5d712-0bb6-11ee-9300-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded765b-0bb6-11ee-a7aa-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5ded8dd6-0bb6-11ee-a7b0-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5c8a7-0bb6-11ee-81fe-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de59c5b-0bb6-11ee-8ffe-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5da23-0bb6-11ee-92ea-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de58276-0bb6-11ee-9002-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de58eef-0bb6-11ee-81f8-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de59b56-0bb6-11ee-8ff8-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5ded7b1a-0bb6-11ee-a7b4-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5ded7de2-0bb6-11ee-a7b5-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de58f33-0bb6-11ee-900c-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5ded7fca-0bb6-11ee-a7ad-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5ded7417-0bb6-11ee-a7b2-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5f7a1-0bb6-11ee-9305-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5ea85-0bb6-11ee-92fc-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de59394-0bb6-11ee-900b-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5ded8535-0bb6-11ee-a7b8-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5fbce-0bb6-11ee-92f0-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5e926-0bb6-11ee-92f5-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded7801-0bb6-11ee-a7bb-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5ded9141-0bb6-11ee-a7a4-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5ded800b-0bb6-11ee-a7ba-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5dedb7aa-0bb6-11ee-a7a9-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5ef75-0bb6-11ee-92ec-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded8d5d-0bb6-11ee-a7bc-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de59bdd-0bb6-11ee-8ffc-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de59f71-0bb6-11ee-8fff-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5f2f0-0bb6-11ee-92ef-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de58e0c-0bb6-11ee-8ff6-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5ded7719-0bb6-11ee-a7a8-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de597de-0bb6-11ee-8ff4-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de59376-0bb6-11ee-9001-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5878c-0bb6-11ee-81f9-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de58b40-0bb6-11ee-9010-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5f643-0bb6-11ee-9301-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded83cc-0bb6-11ee-a7ab-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de598b1-0bb6-11ee-9011-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5def4332-0bb6-11ee-a7c0-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5f83c-0bb6-11ee-92f7-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5a219-0bb6-11ee-820b-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de578bc-0bb6-11ee-900f-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de58b3e-0bb6-11ee-900a-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5a49b-0bb6-11ee-8ffd-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5f261-0bb6-11ee-92fd-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5eb9a-0bb6-11ee-9308-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded8c8e-0bb6-11ee-a7b6-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5e864-0bb6-11ee-92fa-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5def6596-0bb6-11ee-a7b9-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5a89b-0bb6-11ee-8206-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5f29d-0bb6-11ee-9306-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5922e-0bb6-11ee-820a-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5c3bc-0bb6-11ee-820e-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de58f1c-0bb6-11ee-9000-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5f2e4-0bb6-11ee-92ff-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5c409-0bb6-11ee-81fd-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5ea6c-0bb6-11ee-92f9-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5e41e-0bb6-11ee-92ed-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5ed5c-0bb6-11ee-92f6-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de582b8-0bb6-11ee-9007-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5e563-0bb6-11ee-9307-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded8dfa-0bb6-11ee-a7be-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5ded769b-0bb6-11ee-a7bf-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de59cd7-0bb6-11ee-9006-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5c58b-0bb6-11ee-81fc-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5c46e-0bb6-11ee-8209-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de584fc-0bb6-11ee-9003-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5e99b-0bb6-11ee-92f2-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded8ceb-0bb6-11ee-a7c2-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5c36f-0bb6-11ee-8210-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5af17-0bb6-11ee-820c-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5ded6b9b-0bb6-11ee-a7b3-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5acb5-0bb6-11ee-8201-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5ded6b0f-0bb6-11ee-a7a5-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5bd61-0bb6-11ee-81f4-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de58605-0bb6-11ee-9004-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de59ca7-0bb6-11ee-8208-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5ded9db2-0bb6-11ee-a7ae-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5d080-0bb6-11ee-8207-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de594fd-0bb6-11ee-8203-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5c81b-0bb6-11ee-81fb-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5ded785f-0bb6-11ee-a7af-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de58b9c-0bb6-11ee-8ff7-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5f232-0bb6-11ee-92eb-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de59f0e-0bb6-11ee-8ff5-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5a711-0bb6-11ee-81fa-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5ce7a-0bb6-11ee-8202-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5b608-0bb6-11ee-8213-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5c2be-0bb6-11ee-820d-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de58c82-0bb6-11ee-81ff-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5ca66-0bb6-11ee-8211-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de59177-0bb6-11ee-900d-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5909b-0bb6-11ee-8212-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5d0a8-0bb6-11ee-8204-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5f42b-0bb6-11ee-92f4-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded80f4-0bb6-11ee-a7bd-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5ded8e4d-0bb6-11ee-a7b1-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5cb6e-0bb6-11ee-81f6-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5ded6fa4-0bb6-11ee-a7c3-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5975a-0bb6-11ee-81f5-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5fac1-0bb6-11ee-92f8-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5ded8956-0bb6-11ee-a7a6-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5aacc-0bb6-11ee-81f7-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5a670-0bb6-11ee-8200-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5de5b132-0bb6-11ee-8205-0894ef968666
+distributed.scheduler - INFO - Close client connection: Client-5ded8d13-0bb6-11ee-a7b7-0894ef968740
+distributed.scheduler - INFO - Close client connection: Client-5de5e142-0bb6-11ee-92f3-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5f063-0bb6-11ee-92e9-0894ef9687ae
+distributed.scheduler - INFO - Close client connection: Client-5de5a3c8-0bb6-11ee-8ffa-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5de5910c-0bb6-11ee-8ff3-0894ef968656
+distributed.scheduler - INFO - Close client connection: Client-5ded75b8-0bb6-11ee-a7c1-0894ef968740
+distributed.scheduler - INFO - Scheduler closing...
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:36264', name: tcp://10.7.0.2:36264, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:36264
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:32943', name: tcp://10.7.0.3:32943, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:32943
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:35753', name: tcp://10.7.0.2:35753, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:35753
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:39555', name: tcp://10.7.0.2:39555, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:39555
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:34551', name: tcp://10.7.0.3:34551, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:34551
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:41386', name: tcp://10.7.0.2:41386, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:41386
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:37467', name: tcp://10.7.0.3:37467, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:37467
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:46312', name: tcp://10.7.0.2:46312, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:46312
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:33746', name: tcp://10.7.0.2:33746, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:33746
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:42910', name: tcp://10.7.0.2:42910, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:42910
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:46627', name: tcp://10.7.0.2:46627, status: closing, memory: 1, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:46627
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:44383', name: tcp://10.7.0.3:44383, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:44383
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:37832', name: tcp://10.7.0.2:37832, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:37832
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:38078', name: tcp://10.7.0.3:38078, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:38078
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:39709', name: tcp://10.7.0.3:39709, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:39709
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:38920', name: tcp://10.7.0.3:38920, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:38920
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:38226', name: tcp://10.7.0.2:38226, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:38226
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:42710', name: tcp://10.7.0.3:42710, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:42710
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:36106', name: tcp://10.7.0.3:36106, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:36106
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:41359', name: tcp://10.7.0.2:41359, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:41359
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:37727', name: tcp://10.7.0.2:37727, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:37727
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:36006', name: tcp://10.7.0.3:36006, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:36006
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:36571', name: tcp://10.7.0.2:36571, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:36571
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:37663', name: tcp://10.7.0.2:37663, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:37663
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:32768', name: tcp://10.7.0.3:32768, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:32768
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:41542', name: tcp://10.7.0.3:41542, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:41542
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:38574', name: tcp://10.7.0.3:38574, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:38574
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:44588', name: tcp://10.7.0.2:44588, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:44588
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:34820', name: tcp://10.7.0.2:34820, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:34820
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:33304', name: tcp://10.7.0.2:33304, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:33304
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:44691', name: tcp://10.7.0.2:44691, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:44691
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:41475', name: tcp://10.7.0.2:41475, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:41475
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:36195', name: tcp://10.7.0.3:36195, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:36195
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:39005', name: tcp://10.7.0.3:39005, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:39005
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:44713', name: tcp://10.7.0.3:44713, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:44713
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:38830', name: tcp://10.7.0.2:38830, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:38830
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:39397', name: tcp://10.7.0.3:39397, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:39397
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:42909', name: tcp://10.7.0.3:42909, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:42909
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:46088', name: tcp://10.7.0.3:46088, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:46088
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:37868', name: tcp://10.7.0.2:37868, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:37868
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:37362', name: tcp://10.7.0.2:37362, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:37362
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:40840', name: tcp://10.7.0.3:40840, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:40840
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:43810', name: tcp://10.7.0.3:43810, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:43810
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:43164', name: tcp://10.7.0.3:43164, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:43164
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:34447', name: tcp://10.7.0.2:34447, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:34447
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:39659', name: tcp://10.7.0.2:39659, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:39659
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:35057', name: tcp://10.7.0.2:35057, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:35057
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:45054', name: tcp://10.7.0.2:45054, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:45054
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:45646', name: tcp://10.7.0.2:45646, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:45646
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:36627', name: tcp://10.7.0.3:36627, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:36627
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:40273', name: tcp://10.7.0.2:40273, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:40273
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:44578', name: tcp://10.7.0.2:44578, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:44578
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:41113', name: tcp://10.7.0.3:41113, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:41113
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.2:44892', name: tcp://10.7.0.2:44892, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.2:44892
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:40009', name: tcp://10.7.0.3:40009, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:40009
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:40341', name: tcp://10.7.0.3:40341, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:40341
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:46203', name: tcp://10.7.0.3:46203, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:46203
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:38663', name: tcp://10.7.0.3:38663, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:38663
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:45834', name: tcp://10.7.0.3:45834, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:45834
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.3:41429', name: tcp://10.7.0.3:41429, status: closing, memory: 0, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.3:41429
+distributed.scheduler - INFO - Lost all workers
+distributed.scheduler - INFO - Scheduler closing all comms
+distributed.scheduler - INFO - End scheduler at 'tcp://10.7.0.1:8786'

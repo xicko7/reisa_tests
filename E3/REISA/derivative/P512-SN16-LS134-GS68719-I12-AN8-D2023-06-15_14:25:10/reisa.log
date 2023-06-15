@@ -1,0 +1,71 @@
+Slurm job started at 15/06/2023_17:01:15
+
+In transit.
+Initing Ray (1 head node + 8 worker nodes + 16 simulation nodes) on nodes: 
+	node001 node002 node003 node005 node006 node007 node009 node010 node011 node013 node014 node017 node018 node019 node021 node022 node025 node089 node091 node136 node137 node138 node141 node142 node144
+Head node: 10.7.0.1:6379
+
+Environment loaded for PDI version 1.6.0
+
+RAY_DEPLOY_TIME:     24.75471
+2023-06-15 17:01:47,290	INFO packaging.py:520 -- Creating a file package for local directory '/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10'.
+2023-06-15 17:01:47,310	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_ae1aa3663a4a14c9.zip' (0.34MiB) to Ray cluster...
+2023-06-15 17:01:47,337	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_ae1aa3663a4a14c9.zip'.
+RAY_INIT_TIME:       3.66572
+GLOBAL_PUT_TIME:     13.2823965549469 (avg:1.10687)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     62.607282181999999 (avg: 5.217273515166666)
+SIM_WTHOUT_PDI:      40.101594021999993 (avg: 3.341799501833333)
+PDI_DELAY:           22.505688160000005 (avg: 1.875474013333334)
+
+GLOBAL_SIZE_(GiB):   65536
+LOCAL_SIZE_(MiB):    128
+ITERATIONS:          12
+
+MPI_PER_NODE:        32
+MPI_PARALLELISM:     512
+
+WORKER_NODES:        8
+CPUS_PER_WORKER:     30
+WORKER_PARALLELISM:  240
+
+
+SLURM_JOB_ID:        4680042
+EST_ANALYTICS_TIME:  781.39332 (avg:65.11611)
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/derivative.py", line 41, in <module>
+    result = handler.get_result(process_func, iter_func, global_func=global_func, selected_iters=iterations, kept_iters=7, timeline=False)
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/reisa.py", line 98, in get_result
+    return global_func(RayList(results))
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/derivative.py", line 35, in global_func
+    return np.average(final_results[:])
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/reisa.py", line 28, in __getitem__
+    return ray.get(RayList(item))
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/_private/client_mode_hook.py", line 104, in wrapper
+    return getattr(ray, func.__name__)(*args, **kwargs)
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/util/client/api.py", line 42, in get
+    return self.worker.get(vals, timeout=timeout)
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/util/client/worker.py", line 434, in get
+    res = self._get(to_get, op_timeout)
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/site-packages/ray/util/client/worker.py", line 462, in _get
+    raise err
+ray.exceptions.RayTaskError: [36mray::iter_task()[39m (pid=247467, ip=10.7.0.10)
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/reisa.py", line 91, in iter_task
+    return iter_func(i, RayList(itertools.chain.from_iterable(current_results)))
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/derivative.py", line 32, in iter_func
+    return np.average(current_results[:])
+  File "/tmp/ray/session_2023-06-15_17-01-18_536381_201238/runtime_resources/working_dir_files/_ray_pkg_ae1aa3663a4a14c9/reisa.py", line 28, in __getitem__
+    return ray.get(RayList(item))
+ray.exceptions.RayTaskError: [36mray::process_task()[39m (pid=184214, ip=10.7.0.3)
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/reisa.py", line 77, in process_task
+    return process_func(rank, i, queue)
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/derivative.py", line 26, in process_func
+    gt = np.array(queue[-5:])
+  File "/gpfs/users/fernandezx/internship/reisa_tests/E3/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2023-06-15_14:25:10/reisa.py", line 28, in __getitem__
+    return ray.get(RayList(item))
+ray.exceptions.ObjectFetchTimedOutError: Failed to retrieve object 00ffffffffffffffffffffffffffffffffffffffba00000001000000. To see information about where this ObjectRef was created in Python, set the environment variable RAY_record_ref_creation_sites=1 during `ray start` and `ray.init()`.
+
+Fetch for object 00ffffffffffffffffffffffffffffffffffffffba00000001000000 timed out because no locations were found for the object. This may indicate a system-level bug.
+srun: error: node001: task 0: Exited with exit code 1
+
+Slurm job finished at 15/06/2023_17:14:56

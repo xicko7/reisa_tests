@@ -46,7 +46,7 @@ echo -e "Running in $WORKSPACE"
 
 TASKS=$(($MPI_TASKS + $NWORKER*$WORKER_NODES + 2))
 
-echo -e "Executing $(sbatch --parsable -N $NNODES -n $(($MPI_TASKS + $WORKER_NODES*$NWORKER + 2)) -c $WORKER_THREADING Script.sh $(($PARALLELISM1*$PARALLELISM2)) $MPI_PER_NODE $8 $9 $PR) in $DIR/$WORKSPACE/" >> ../../../jobs.log
+echo -e "Executing $(sbatch --parsable -N $NNODES -n $(($MPI_TASKS + $WORKER_NODES*$NWORKER + 2)) --mincpus=40 -c $WORKER_THREADING Script.sh $(($PARALLELISM1*$PARALLELISM2)) $MPI_PER_NODE $8 $9 $PR) in $DIR/$WORKSPACE/" >> ../../../jobs.log
 
 
 cd $DIR

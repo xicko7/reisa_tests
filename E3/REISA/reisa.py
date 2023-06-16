@@ -76,7 +76,7 @@ class Reisa:
         def process_task(rank: int, i: int, queue):
             return process_func(rank, i, queue)
             
-        iter_ratio=1/ceil(max_tasks/self.mpi)
+        iter_ratio=1/(ceil(max_tasks/self.mpi)*2)
         if iter_ratio>1:
             iter_ratio=1
 

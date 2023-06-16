@@ -38,7 +38,7 @@ def global_func(final_results):
 iterations = [i for i in range(4, max)]
 
 # Launch the analytics (blocking operation), kept iters paramerter means the number of iterations kept in memory before the current iteration
-result = handler.get_result(process_func, iter_func, global_func=global_func, selected_iters=iterations, kept_iters=7, timeline=False)
+result = handler.get_result(process_func, iter_func, global_func=global_func, selected_iters=iterations, kept_iters=max, timeline=False)
 
 # Write the results
 with open("results.log", "a") as f:

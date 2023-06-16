@@ -1,0 +1,36 @@
+Slurm job started at 16/06/2023_07:19:08
+
+In transit.
+Initing Ray (1 head node + 4 worker nodes + 4 simulation nodes) on nodes: 
+	node014 node017 node018 node019 node021 node022 node023 node165 node174
+Head node: 10.7.0.14:6379
+
+Environment loaded for PDI version 1.6.0
+
+RAY_DEPLOY_TIME:     24.47649
+2023-06-16 07:19:35,049	INFO packaging.py:520 -- Creating a file package for local directory '/gpfs/users/fernandezx/internship/reisa_tests/E1/REISA/reduction/P8-SN4-LS268-GS2147-I25-AN4-D2023-06-16_00:18:00'.
+2023-06-16 07:19:35,070	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_f2f423638d1bd1d5.zip' (0.34MiB) to Ray cluster...
+2023-06-16 07:19:35,085	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_f2f423638d1bd1d5.zip'.
+RAY_INIT_TIME:       2.87464
+EST_ANALYTICS_TIME:  102.97305 (avg:4.11892)
+GLOBAL_PUT_TIME:     12.659969329833984 (avg:0.50640)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     107.307897696000012 (avg: 4.292315907840001)
+SIM_WTHOUT_PDI:      89.152976017999933 (avg: 3.566119040719997)
+PDI_DELAY:           18.154921678000079 (avg: 0.726196867120003)
+
+GLOBAL_SIZE_(GiB):   2048
+LOCAL_SIZE_(MiB):    256
+ITERATIONS:          25
+
+MPI_PER_NODE:        2
+MPI_PARALLELISM:     8
+
+WORKER_NODES:        4
+CPUS_PER_WORKER:     30
+WORKER_PARALLELISM:  120
+
+
+SLURM_JOB_ID:        4683179
+
+Slurm job finished at 16/06/2023_07:21:26

@@ -61,7 +61,7 @@ with open("results.log", "a") as f:
     result = [cpt.result() for cpt in results]
     f.write(str(result))
 
-print("{:<21}".format("EST_TIME:") + "{:.5f}".format(time.time()-start))
+print("{:<21}".format("EST_ANALYTICS_TIME:") + "{:.5f}".format(time.time()-start))
 
 
 print("Done", flush=True)

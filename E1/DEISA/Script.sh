@@ -38,14 +38,16 @@ srun -N $WORKERNODES -n $NWORKER -c $THREADS --relative 1 dask-worker --local-di
 # Launch the simulation code
 REL=$(( $WORKERNODES + 1 ))
 srun -N $SIMUNODES -n $1 -c 1 --ntasks-per-node=$2 --relative $REL ./simulation &
+sim_pid=$!
+wait $sim_pid
 # Wait for the client process to be finished
 wait $client_pid
 
 sed -i '/^filename:/d' deisa.log
 sleep 3
-echo -e "ANALYTICS_TIME:      $(grep -o "Duration:.................." dask-report.html | awk {'print $2'})" >> deisa.log
-echo -e "TRANSFER_TIME:       $(grep -o "transfer time:.................." dask-report.html | awk {'print $3'})" >> deisa.log
-echo -e "DESERIALIZE_TIME:    $(grep -o "deserialize time:.................." dask-report.html | awk {'print $3'})" >> deisa.log
-echo -e "COMPUTE_TIME:        $(grep -o "compute time:.................." dask-report.html | awk {'print $3'})" >> deisa.log
+echo -e "HTML_ANALYTICS_TIME:      $(grep -o "Duration:.................." dask-report.html | awk {'print $2'})" >> deisa.log
+echo -e "HTML_TRANSFER_TIME:       $(grep -o "transfer time:.................." dask-report.html | awk {'print $3'})" >> deisa.log
+echo -e "HTML_DESERIALIZE_TIME:    $(grep -o "deserialize time:.................." dask-report.html | awk {'print $3'})" >> deisa.log
+echo -e "HTML_COMPUTE_TIME:        $(grep -o "compute time:.................." dask-report.html | awk {'print $3'})" >> deisa.log
 
 echo -e "\nSlurm job finished at $(date +%d/%m/%Y_%X)"

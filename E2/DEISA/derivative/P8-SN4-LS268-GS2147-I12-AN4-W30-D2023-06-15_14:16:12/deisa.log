@@ -10,11 +10,11 @@ dask.array<concatenate, shape=(12, 16384, 16384), dtype=float64, chunksize=(1, 8
 Generated contract {'global_t': [(0, 12, 1)]}
 Contract has been signed
 Original arrays deleted
-EST_TIME:            55.93340
+EST_ANALYTICS_TIME:            55.93340
 Done
-TOTAL_SIM_TIME:      59.177984611999996 (avg: 4.931498717666666)
-SIM_BLOCK_TIME:      15.697032003000004 (avg: 1.308086000250000)
-SIM_WTH_BLOCK:       43.480952608999992 (avg: 3.623412717416666)
+SIMULATION_TIME:      59.177984611999996 (avg: 4.931498717666666)
+PDI_DELAY:      15.697032003000004 (avg: 1.308086000250000)
+SIM_WTHOUT_PDI:       43.480952608999992 (avg: 3.623412717416666)
 distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.147:34194 remote=tcp://10.7.0.141:8786>
 Traceback (most recent call last):
   File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
@@ -90,7 +90,7 @@ Traceback (most recent call last):
 distributed.comm.core.CommClosedError: Comm <TCP (closed) Client->Scheduler local=tcp://10.7.0.141:47510 remote=tcp://10.7.0.141:8786> already closed.
 
 functions called:
-ANALYTICS_TIME:      54.23
-TRANSFER_TIME:       229.17
-DESERIALIZE_TIME:    18.39
-COMPUTE_TIME:        35.96
+HTML_ANALYTICS_TIME:      54.23
+HTML_TRANSFER_TIME:       229.17
+HTML_DESERIALIZE_TIME:    18.39
+HTML_COMPUTE_TIME:        35.96

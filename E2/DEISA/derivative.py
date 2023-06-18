@@ -70,7 +70,7 @@ with performance_report(filename="dask-report.html"):
     with open("results.log", "a") as f:
         f.write(str(client.compute(s).result()))
 
-print("{:<21}".format("EST_TIME:") + "{:.5f}".format(time.time()-start))
+print("{:<21}".format("EST_ANALYTICS_TIME:") + "{:.5f}".format(time.time()-start))
 
 
 print("Done", flush=True)

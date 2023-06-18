@@ -10,11 +10,11 @@ dask.array<concatenate, shape=(25, 32768, 16384), dtype=float64, chunksize=(1, 8
 Generated contract {'global_t': [(0, 25, 1)]}
 Contract has been signed
 Original arrays deleted
-EST_TIME:            100.46450
+EST_ANALYTICS_TIME:            100.46450
 Done
 
 functions called:
-ANALYTICS_TIME:      13.55
-TRANSFER_TIME:       447.32
-DESERIALIZE_TIME:    
-COMPUTE_TIME:        4.47
+HTML_ANALYTICS_TIME:      13.55
+HTML_TRANSFER_TIME:       447.32
+HTML_DESERIALIZE_TIME:    
+HTML_COMPUTE_TIME:        4.47

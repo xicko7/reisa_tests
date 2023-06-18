@@ -10,7 +10,7 @@ dask.array<concatenate, shape=(12, 16384, 32768), dtype=float64, chunksize=(1, 8
 Generated contract {'global_t': [(0, 12, 1)]}
 Contract has been signed
 Original arrays deleted
-EST_TIME:            100.66931
+EST_ANALYTICS_TIME:            100.66931
 Done
 tornado.application - ERROR - Exception in callback <bound method Client._heartbeat of <Client: 'tcp://10.7.0.141:8786' processes=120 threads=4800, memory=18.75 TiB>>
 Traceback (most recent call last):
@@ -23,7 +23,7 @@ Traceback (most recent call last):
 distributed.comm.core.CommClosedError: Comm <TCP (closed) Client->Scheduler local=tcp://10.7.0.141:48610 remote=tcp://10.7.0.141:8786> already closed.
 
 functions called:
-ANALYTICS_TIME:      99.03
-TRANSFER_TIME:       227.75
-DESERIALIZE_TIME:    5.15
-COMPUTE_TIME:        72.70
+HTML_ANALYTICS_TIME:      99.03
+HTML_TRANSFER_TIME:       227.75
+HTML_DESERIALIZE_TIME:    5.15
+HTML_COMPUTE_TIME:        72.70

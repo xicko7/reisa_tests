@@ -205,9 +205,9 @@ int main( int argc, char* argv[] )
     }
     MPI_Barrier(main_comm);
     if(!pcoord_1d){
-        fprintf(stderr,"%-21s%.15f (avg: %.15f)\n", "TOTAL_SIM_TIME:", total, (total)/generations);
-        fprintf(stderr,"%-21s%.15f (avg: %.15f)\n", "SIM_BLOCK_TIME:", pdi_loop, (pdi_loop)/generations);
-        fprintf(stderr,"%-21s%.15f (avg: %.15f)\n", "SIM_WTH_BLOCK:", total-pdi_loop, (total-pdi_loop)/generations);
+        fprintf(stderr,"%-21s%.15f (avg: %.15f)\n", "SIMULATION_TIME:", total, (total)/generations);
+        fprintf(stderr,"%-21s%.15f (avg: %.15f)\n", "PDI_DELAY:", pdi_loop, (pdi_loop)/generations);
+        fprintf(stderr,"%-21s%.15f (avg: %.15f)\n", "SIM_WTHOUT_PDI:", total-pdi_loop, (total-pdi_loop)/generations);
     }
 
     PDI_finalize();

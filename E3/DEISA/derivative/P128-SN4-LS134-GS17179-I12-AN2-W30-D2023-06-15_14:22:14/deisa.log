@@ -10,11 +10,11 @@ dask.array<concatenate, shape=(12, 32768, 65536), dtype=float64, chunksize=(1, 4
 Generated contract {'global_t': [(0, 12, 1)]}
 Contract has been signed
 Original arrays deleted
-TOTAL_SIM_TIME:      81.451713382000008 (avg: 6.787642781833334)
-SIM_BLOCK_TIME:      58.364073509000022 (avg: 4.863672792416668)
-SIM_WTH_BLOCK:       23.087639872999986 (avg: 1.923969989416666)
+SIMULATION_TIME:      81.451713382000008 (avg: 6.787642781833334)
+PDI_DELAY:      58.364073509000022 (avg: 4.863672792416668)
+SIM_WTHOUT_PDI:       23.087639872999986 (avg: 1.923969989416666)
 SUCCESS
-EST_TIME:            75.23303
+EST_ANALYTICS_TIME:            75.23303
 Done
 tornado.application - ERROR - Exception in callback <bound method Client._heartbeat of <Client: 'tcp://10.7.0.129:8786' processes=60 threads=2400, memory=9.38 TiB>>
 Traceback (most recent call last):
@@ -27,7 +27,7 @@ Traceback (most recent call last):
 distributed.comm.core.CommClosedError: Comm <TCP (closed) Client->Scheduler local=tcp://10.7.0.129:46388 remote=tcp://10.7.0.129:8786> already closed.
 
 functions called:
-ANALYTICS_TIME:      72.84
-TRANSFER_TIME:       6.75
-DESERIALIZE_TIME:    323.13
-COMPUTE_TIME:        631.42
+HTML_ANALYTICS_TIME:      72.84
+HTML_TRANSFER_TIME:       6.75
+HTML_DESERIALIZE_TIME:    323.13
+HTML_COMPUTE_TIME:        631.42

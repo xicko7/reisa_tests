@@ -1,0 +1,591 @@
+distributed.scheduler - INFO - -----------------------------------------------
+distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+distributed.scheduler - INFO - -----------------------------------------------
+distributed.scheduler - INFO - Clear task state
+distributed.scheduler - INFO -   Scheduler at:     tcp://10.7.0.129:8786
+distributed.scheduler - INFO -   dashboard at:           10.7.0.129:8787
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:35348', name: tcp://10.7.0.133:35348, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:35348
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:42944', name: tcp://10.7.0.133:42944, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:42944
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:43155', name: tcp://10.7.0.133:43155, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:43155
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:37733', name: tcp://10.7.0.133:37733, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:37733
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:46787', name: tcp://10.7.0.133:46787, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:46787
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:35481', name: tcp://10.7.0.133:35481, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:35481
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:42114', name: tcp://10.7.0.133:42114, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:42114
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:45788', name: tcp://10.7.0.133:45788, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:45788
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:45866', name: tcp://10.7.0.133:45866, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:45866
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:34045', name: tcp://10.7.0.133:34045, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:34045
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:34171', name: tcp://10.7.0.133:34171, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:34171
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:39294', name: tcp://10.7.0.133:39294, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:39294
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:36431', name: tcp://10.7.0.133:36431, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:36431
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:33325', name: tcp://10.7.0.133:33325, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:33325
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:34732', name: tcp://10.7.0.133:34732, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:34732
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:37137', name: tcp://10.7.0.132:37137, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:37137
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:35523', name: tcp://10.7.0.132:35523, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:35523
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:46117', name: tcp://10.7.0.132:46117, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:46117
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:38540', name: tcp://10.7.0.132:38540, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:38540
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:46349', name: tcp://10.7.0.132:46349, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:46349
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:39833', name: tcp://10.7.0.132:39833, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:39833
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:35502', name: tcp://10.7.0.132:35502, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:35502
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:39770', name: tcp://10.7.0.132:39770, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:39770
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:42797', name: tcp://10.7.0.132:42797, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:42797
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:46273', name: tcp://10.7.0.132:46273, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:46273
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:40275', name: tcp://10.7.0.132:40275, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:40275
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:35614', name: tcp://10.7.0.132:35614, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:35614
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:39891', name: tcp://10.7.0.132:39891, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:39891
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:34121', name: tcp://10.7.0.132:34121, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:34121
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:34518', name: tcp://10.7.0.132:34518, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:34518
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:43745', name: tcp://10.7.0.132:43745, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:43745
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:43263', name: tcp://10.7.0.132:43263, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:43263
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:39457', name: tcp://10.7.0.132:39457, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:39457
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:42277', name: tcp://10.7.0.132:42277, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:42277
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:42957', name: tcp://10.7.0.133:42957, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:42957
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:39463', name: tcp://10.7.0.132:39463, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:39463
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:34808', name: tcp://10.7.0.132:34808, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:34808
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:39727', name: tcp://10.7.0.132:39727, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:39727
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:36359', name: tcp://10.7.0.132:36359, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:36359
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:33911', name: tcp://10.7.0.133:33911, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:33911
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:38120', name: tcp://10.7.0.133:38120, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:38120
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:38163', name: tcp://10.7.0.133:38163, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:38163
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:32899', name: tcp://10.7.0.133:32899, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:32899
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:41616', name: tcp://10.7.0.132:41616, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:41616
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:40652', name: tcp://10.7.0.132:40652, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:40652
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:37529', name: tcp://10.7.0.132:37529, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:37529
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:33748', name: tcp://10.7.0.133:33748, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:33748
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:43848', name: tcp://10.7.0.133:43848, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:43848
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:33566', name: tcp://10.7.0.133:33566, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:33566
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:46303', name: tcp://10.7.0.133:46303, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:46303
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:45948', name: tcp://10.7.0.133:45948, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:45948
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:33086', name: tcp://10.7.0.133:33086, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:33086
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:37241', name: tcp://10.7.0.133:37241, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:37241
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:46873', name: tcp://10.7.0.133:46873, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:46873
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:43306', name: tcp://10.7.0.133:43306, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:43306
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d658-0dfd-11ee-9ec6-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8ca8e-0dfd-11ee-9ed4-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8bd1b-0dfd-11ee-9ecf-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8cd5b-0dfd-11ee-9ec4-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d7ed-0dfd-11ee-9ecd-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8b643-0dfd-11ee-9ebf-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8c15b-0dfd-11ee-9ed2-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8db8f-0dfd-11ee-9ec0-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8cbde-0dfd-11ee-9ed3-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d7f1-0dfd-11ee-9ed6-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8c471-0dfd-11ee-9ebe-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d809-0dfd-11ee-9ed0-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d338-0dfd-11ee-9ecb-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8de1a-0dfd-11ee-9ed5-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8c819-0dfd-11ee-9ec3-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8db7f-0dfd-11ee-9ebd-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8cfc3-0dfd-11ee-9ed8-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8c8f0-0dfd-11ee-9edb-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8cd93-0dfd-11ee-9ec9-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8ca81-0dfd-11ee-9ecc-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8c777-0dfd-11ee-9ec5-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d54d-0dfd-11ee-9ed7-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8bbb6-0dfd-11ee-9ece-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8cf5f-0dfd-11ee-9ec8-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d530-0dfd-11ee-9eca-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8cd97-0dfd-11ee-9ed9-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8cab1-0dfd-11ee-9ed1-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d404-0dfd-11ee-9ec1-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d724-0dfd-11ee-9ec2-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d88f-0dfd-11ee-9ebc-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8dd53-0dfd-11ee-9ec7-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebd8d9f7-0dfd-11ee-9eda-0894efb3ff54
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.133:36362', name: tcp://10.7.0.133:36362, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.133:36362
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8280-0dfd-11ee-806f-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd842d-0dfd-11ee-805f-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd85c3-0dfd-11ee-806a-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd6ef2-0dfd-11ee-8070-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd7eec-0dfd-11ee-8062-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8b99-0dfd-11ee-8075-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd74ed-0dfd-11ee-8060-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd7859-0dfd-11ee-807b-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8d9f-0dfd-11ee-8066-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8827-0dfd-11ee-8069-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd9453-0dfd-11ee-8072-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd931c-0dfd-11ee-807c-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd96b8-0dfd-11ee-8077-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8999-0dfd-11ee-8061-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd9527-0dfd-11ee-8078-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd900d-0dfd-11ee-807e-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8c3f-0dfd-11ee-8067-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd92ed-0dfd-11ee-8079-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd6996-0dfd-11ee-8071-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd946f-0dfd-11ee-8065-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8b11-0dfd-11ee-8073-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8ca2-0dfd-11ee-8068-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd85d6-0dfd-11ee-8074-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd822a-0dfd-11ee-806b-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd6b09-0dfd-11ee-8064-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd8f1f-0dfd-11ee-807d-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd7fa5-0dfd-11ee-8063-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd922e-0dfd-11ee-807a-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd79d7-0dfd-11ee-806d-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd94f5-0dfd-11ee-8076-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd7382-0dfd-11ee-806c-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ebfd7cfe-0dfd-11ee-806e-0894efb36cd0
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b270-0dfd-11ee-8089-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b99d-0dfd-11ee-8095-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00baea-0dfd-11ee-8085-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b7c4-0dfd-11ee-808f-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00a5f7-0dfd-11ee-80a1-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b939-0dfd-11ee-809c-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b1da-0dfd-11ee-80a3-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00affb-0dfd-11ee-809b-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00a473-0dfd-11ee-8092-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00aae0-0dfd-11ee-80a4-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b36b-0dfd-11ee-8093-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b9c5-0dfd-11ee-8091-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b73e-0dfd-11ee-809a-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00ac30-0dfd-11ee-80a0-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b76a-0dfd-11ee-808b-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00bb72-0dfd-11ee-808c-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00ab74-0dfd-11ee-8096-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00aad4-0dfd-11ee-8094-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00be56-0dfd-11ee-809f-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00a73f-0dfd-11ee-8098-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00bba4-0dfd-11ee-8099-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00ae72-0dfd-11ee-8090-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00a67c-0dfd-11ee-808e-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b5f1-0dfd-11ee-8097-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00a836-0dfd-11ee-80a2-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b0bf-0dfd-11ee-8088-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b358-0dfd-11ee-8087-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00a7b1-0dfd-11ee-808a-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00abdb-0dfd-11ee-8086-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00a57c-0dfd-11ee-809d-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b429-0dfd-11ee-809e-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec00b3f9-0dfd-11ee-808d-0894efb3ff58
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec3495be-0dfd-11ee-bf46-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec347ff8-0dfd-11ee-bf2b-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348779-0dfd-11ee-bf45-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec346c4a-0dfd-11ee-bf36-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec347cec-0dfd-11ee-bf3c-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec3491f4-0dfd-11ee-bf2c-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec34910f-0dfd-11ee-bf35-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec346cd5-0dfd-11ee-bf48-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348ebd-0dfd-11ee-bf38-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec349932-0dfd-11ee-bf37-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec34893e-0dfd-11ee-bf2f-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec34906f-0dfd-11ee-bf3e-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec347dfc-0dfd-11ee-bf29-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec3482f1-0dfd-11ee-bf47-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348ef1-0dfd-11ee-bf41-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec349186-0dfd-11ee-bf30-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec346fa5-0dfd-11ee-bf44-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec349720-0dfd-11ee-bf3b-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec3489f7-0dfd-11ee-bf42-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348e19-0dfd-11ee-bf32-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348141-0dfd-11ee-bf31-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348e63-0dfd-11ee-bf43-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec3497b7-0dfd-11ee-bf2a-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec3496f6-0dfd-11ee-bf2e-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec3498e3-0dfd-11ee-bf33-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348ffa-0dfd-11ee-bf40-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec349899-0dfd-11ee-bf2d-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348aff-0dfd-11ee-bf3f-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec349e22-0dfd-11ee-bf3d-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec349c66-0dfd-11ee-bf34-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348f64-0dfd-11ee-bf3a-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-ec348161-0dfd-11ee-bf39-0894efb400be
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:38171', name: tcp://10.7.0.132:38171, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:38171
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:34148', name: tcp://10.7.0.132:34148, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:34148
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:42225', name: tcp://10.7.0.132:42225, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:42225
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Register worker <WorkerState 'tcp://10.7.0.132:37020', name: tcp://10.7.0.132:37020, status: undefined, memory: 0, processing: 0>
+distributed.scheduler - INFO - Starting worker compute stream, tcp://10.7.0.132:37020
+distributed.core - INFO - Starting established connection
+distributed.scheduler - INFO - Receive client connection: Client-f97a8309-0dfd-11ee-9e25-0894efae2ede
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - Run out-of-band function 'lambda'
+Exception in thread Profile:
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/profile.py", line 115, in process
+    d = state["children"][ident]
+KeyError: 'graph_metrics;/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-dask-2021.11.2-qnri6zi5ys4rmlmir5mv7xdamzlej7rx/lib/python3.10/site-packages/dask/order.py;805'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/profile.py", line 274, in _watch
+    process(frame, None, recent, omit=omit)
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/profile.py", line 119, in process
+    "description": info_frame(frame),
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/profile.py", line 72, in info_frame
+    line = linecache.getline(co.co_filename, frame.f_lineno, frame.f_globals).lstrip()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.10.8-gr23wncdlkfsy2ky42hcmljvrpvextag/lib/python3.10/linecache.py", line 31, in getline
+    if 1 <= lineno <= len(lines):
+TypeError: '<=' not supported between instances of 'int' and 'NoneType'
+distributed.scheduler - INFO - Scheduler closing...
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:37020', name: tcp://10.7.0.132:37020, status: closing, memory: 1, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:37020
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:46273', name: tcp://10.7.0.132:46273, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:46273
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:38540', name: tcp://10.7.0.132:38540, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:38540
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:39294', name: tcp://10.7.0.133:39294, status: closing, memory: 1, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:39294
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:35614', name: tcp://10.7.0.132:35614, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:35614
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:37137', name: tcp://10.7.0.132:37137, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:37137
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:40275', name: tcp://10.7.0.132:40275, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:40275
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:34148', name: tcp://10.7.0.132:34148, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:34148
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:35523', name: tcp://10.7.0.132:35523, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:35523
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:34808', name: tcp://10.7.0.132:34808, status: closing, memory: 4, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:34808
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:34171', name: tcp://10.7.0.133:34171, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:34171
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:46349', name: tcp://10.7.0.132:46349, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:46349
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:45866', name: tcp://10.7.0.133:45866, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:45866
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:35502', name: tcp://10.7.0.132:35502, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:35502
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:45948', name: tcp://10.7.0.133:45948, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:45948
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:33325', name: tcp://10.7.0.133:33325, status: closing, memory: 1, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:33325
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:36359', name: tcp://10.7.0.132:36359, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:36359
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:46303', name: tcp://10.7.0.133:46303, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:46303
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:46787', name: tcp://10.7.0.133:46787, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:46787
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:39891', name: tcp://10.7.0.132:39891, status: closing, memory: 1, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:39891
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:39770', name: tcp://10.7.0.132:39770, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:39770
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:37733', name: tcp://10.7.0.133:37733, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:37733
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:43848', name: tcp://10.7.0.133:43848, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:43848
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:39457', name: tcp://10.7.0.132:39457, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:39457
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:34121', name: tcp://10.7.0.132:34121, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:34121
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:39833', name: tcp://10.7.0.132:39833, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:39833
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:43306', name: tcp://10.7.0.133:43306, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:43306
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:38163', name: tcp://10.7.0.133:38163, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:38163
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:46117', name: tcp://10.7.0.132:46117, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:46117
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:36431', name: tcp://10.7.0.133:36431, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:36431
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:42277', name: tcp://10.7.0.132:42277, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:42277
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:45788', name: tcp://10.7.0.133:45788, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:45788
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:35481', name: tcp://10.7.0.133:35481, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:35481
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:33748', name: tcp://10.7.0.133:33748, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:33748
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:41616', name: tcp://10.7.0.132:41616, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:41616
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:42797', name: tcp://10.7.0.132:42797, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:42797
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:38120', name: tcp://10.7.0.133:38120, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:38120
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:37529', name: tcp://10.7.0.132:37529, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:37529
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:42944', name: tcp://10.7.0.133:42944, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:42944
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:35348', name: tcp://10.7.0.133:35348, status: closing, memory: 1, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:35348
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:36362', name: tcp://10.7.0.133:36362, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:36362
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:38171', name: tcp://10.7.0.132:38171, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:38171
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:34732', name: tcp://10.7.0.133:34732, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:34732
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:33086', name: tcp://10.7.0.133:33086, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:33086
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:33566', name: tcp://10.7.0.133:33566, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:33566
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:42114', name: tcp://10.7.0.133:42114, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:42114
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:39463', name: tcp://10.7.0.132:39463, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:39463
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:43155', name: tcp://10.7.0.133:43155, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:43155
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:40652', name: tcp://10.7.0.132:40652, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:40652
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:39727', name: tcp://10.7.0.132:39727, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:39727
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:33911', name: tcp://10.7.0.133:33911, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:33911
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:32899', name: tcp://10.7.0.133:32899, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:32899
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:34518', name: tcp://10.7.0.132:34518, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:34518
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:34045', name: tcp://10.7.0.133:34045, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:34045
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:42957', name: tcp://10.7.0.133:42957, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:42957
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:43745', name: tcp://10.7.0.132:43745, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:43745
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:46873', name: tcp://10.7.0.133:46873, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:46873
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.133:37241', name: tcp://10.7.0.133:37241, status: closing, memory: 2, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.133:37241
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:43263', name: tcp://10.7.0.132:43263, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:43263
+distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://10.7.0.132:42225', name: tcp://10.7.0.132:42225, status: closing, memory: 3, processing: 0>
+distributed.core - INFO - Removing comms to tcp://10.7.0.132:42225
+distributed.scheduler - INFO - Lost all workers
+distributed.scheduler - INFO - Scheduler closing all comms
+distributed.scheduler - INFO - End scheduler at 'tcp://10.7.0.129:8786'

@@ -1,0 +1,132 @@
+Slurm job started at 18/06/2023_18:32:56
+
+NNODES = 16
+SIMUNODES = 8
+WORKERNODES = 8
+NPROC = 16
+NWORKER = 240
+..['tcp://10.7.0.132:33693', 'tcp://10.7.0.132:34996', 'tcp://10.7.0.132:35767', 'tcp://10.7.0.132:36185', 'tcp://10.7.0.132:36980', 'tcp://10.7.0.132:37135', 'tcp://10.7.0.132:39546', 'tcp://10.7.0.132:39720', 'tcp://10.7.0.132:40095', 'tcp://10.7.0.132:40248', 'tcp://10.7.0.132:40354', 'tcp://10.7.0.132:40624', 'tcp://10.7.0.132:40652', 'tcp://10.7.0.132:41107', 'tcp://10.7.0.132:41187', 'tcp://10.7.0.132:42022', 'tcp://10.7.0.132:42359', 'tcp://10.7.0.132:42656', 'tcp://10.7.0.132:42678', 'tcp://10.7.0.132:43164', 'tcp://10.7.0.132:43598', 'tcp://10.7.0.132:43860', 'tcp://10.7.0.132:43990', 'tcp://10.7.0.132:44769', 'tcp://10.7.0.132:44879', 'tcp://10.7.0.132:45151', 'tcp://10.7.0.132:45429', 'tcp://10.7.0.132:46172', 'tcp://10.7.0.132:46586', 'tcp://10.7.0.132:46729', 'tcp://10.7.0.133:34836', 'tcp://10.7.0.133:34953', 'tcp://10.7.0.133:35795', 'tcp://10.7.0.133:36145', 'tcp://10.7.0.133:36911', 'tcp://10.7.0.133:37027', 'tcp://10.7.0.133:37702', 'tcp://10.7.0.133:38004', 'tcp://10.7.0.133:38474', 'tcp://10.7.0.133:38606', 'tcp://10.7.0.133:38694', 'tcp://10.7.0.133:39259', 'tcp://10.7.0.133:39551', 'tcp://10.7.0.133:39761', 'tcp://10.7.0.133:39928', 'tcp://10.7.0.133:39937', 'tcp://10.7.0.133:40640', 'tcp://10.7.0.133:40923', 'tcp://10.7.0.133:41034', 'tcp://10.7.0.133:41170', 'tcp://10.7.0.133:41224', 'tcp://10.7.0.133:41905', 'tcp://10.7.0.133:43386', 'tcp://10.7.0.133:43733', 'tcp://10.7.0.133:44082', 'tcp://10.7.0.133:44365', 'tcp://10.7.0.133:45143', 'tcp://10.7.0.133:45684', 'tcp://10.7.0.133:46766', 'tcp://10.7.0.133:46809', 'tcp://10.7.0.135:33833', 'tcp://10.7.0.135:34234', 'tcp://10.7.0.135:34595', 'tcp://10.7.0.135:34980', 'tcp://10.7.0.135:35218', 'tcp://10.7.0.135:36213', 'tcp://10.7.0.135:36260', 'tcp://10.7.0.135:36746', 'tcp://10.7.0.135:36948', 'tcp://10.7.0.135:36996', 'tcp://10.7.0.135:37476', 'tcp://10.7.0.135:37504', 'tcp://10.7.0.135:37789', 'tcp://10.7.0.135:38623', 'tcp://10.7.0.135:39675', 'tcp://10.7.0.135:40089', 'tcp://10.7.0.135:40095', 'tcp://10.7.0.135:40866', 'tcp://10.7.0.135:41034', 'tcp://10.7.0.135:41359', 'tcp://10.7.0.135:41563', 'tcp://10.7.0.135:42245', 'tcp://10.7.0.135:42436', 'tcp://10.7.0.135:44351', 'tcp://10.7.0.135:44386', 'tcp://10.7.0.135:45644', 'tcp://10.7.0.135:45694', 'tcp://10.7.0.135:45959', 'tcp://10.7.0.135:46185', 'tcp://10.7.0.135:46841', 'tcp://10.7.0.136:33192', 'tcp://10.7.0.136:34251', 'tcp://10.7.0.136:34905', 'tcp://10.7.0.136:35334', 'tcp://10.7.0.136:35780', 'tcp://10.7.0.136:36243', 'tcp://10.7.0.136:36307', 'tcp://10.7.0.136:36639', 'tcp://10.7.0.136:37154', 'tcp://10.7.0.136:37479', 'tcp://10.7.0.136:37517', 'tcp://10.7.0.136:39818', 'tcp://10.7.0.136:40187', 'tcp://10.7.0.136:40313', 'tcp://10.7.0.136:40556', 'tcp://10.7.0.136:40742', 'tcp://10.7.0.136:41006', 'tcp://10.7.0.136:41144', 'tcp://10.7.0.136:41455', 'tcp://10.7.0.136:41524', 'tcp://10.7.0.136:41859', 'tcp://10.7.0.136:42035', 'tcp://10.7.0.136:42232', 'tcp://10.7.0.136:43331', 'tcp://10.7.0.136:43882', 'tcp://10.7.0.136:43908', 'tcp://10.7.0.136:44350', 'tcp://10.7.0.136:44544', 'tcp://10.7.0.136:45794', 'tcp://10.7.0.136:45940', 'tcp://10.7.0.137:33985', 'tcp://10.7.0.137:34661', 'tcp://10.7.0.137:34920', 'tcp://10.7.0.137:35273', 'tcp://10.7.0.137:35544', 'tcp://10.7.0.137:35606', 'tcp://10.7.0.137:35671', 'tcp://10.7.0.137:35764', 'tcp://10.7.0.137:35928', 'tcp://10.7.0.137:36326', 'tcp://10.7.0.137:36859', 'tcp://10.7.0.137:37091', 'tcp://10.7.0.137:37851', 'tcp://10.7.0.137:38216', 'tcp://10.7.0.137:38511', 'tcp://10.7.0.137:38522', 'tcp://10.7.0.137:38967', 'tcp://10.7.0.137:39052', 'tcp://10.7.0.137:41043', 'tcp://10.7.0.137:41069', 'tcp://10.7.0.137:41721', 'tcp://10.7.0.137:42005', 'tcp://10.7.0.137:42834', 'tcp://10.7.0.137:43144', 'tcp://10.7.0.137:43387', 'tcp://10.7.0.137:44811', 'tcp://10.7.0.137:44922', 'tcp://10.7.0.137:45374', 'tcp://10.7.0.137:46676', 'tcp://10.7.0.137:46843', 'tcp://10.7.0.138:33161', 'tcp://10.7.0.138:33333', 'tcp://10.7.0.138:33603', 'tcp://10.7.0.138:34213', 'tcp://10.7.0.138:35537', 'tcp://10.7.0.138:35878', 'tcp://10.7.0.138:36175', 'tcp://10.7.0.138:36182', 'tcp://10.7.0.138:37166', 'tcp://10.7.0.138:38279', 'tcp://10.7.0.138:38874', 'tcp://10.7.0.138:38980', 'tcp://10.7.0.138:39265', 'tcp://10.7.0.138:39858', 'tcp://10.7.0.138:40158', 'tcp://10.7.0.138:40281', 'tcp://10.7.0.138:40292', 'tcp://10.7.0.138:40657', 'tcp://10.7.0.138:40686', 'tcp://10.7.0.138:40732', 'tcp://10.7.0.138:41479', 'tcp://10.7.0.138:42561', 'tcp://10.7.0.138:42870', 'tcp://10.7.0.138:43218', 'tcp://10.7.0.138:44524', 'tcp://10.7.0.138:44791', 'tcp://10.7.0.138:45507', 'tcp://10.7.0.138:45724', 'tcp://10.7.0.138:45811', 'tcp://10.7.0.138:46199', 'tcp://10.7.0.139:33242', 'tcp://10.7.0.139:33386', 'tcp://10.7.0.139:33630', 'tcp://10.7.0.139:34397', 'tcp://10.7.0.139:34458', 'tcp://10.7.0.139:35496', 'tcp://10.7.0.139:35656', 'tcp://10.7.0.139:36741', 'tcp://10.7.0.139:37686', 'tcp://10.7.0.139:38308', 'tcp://10.7.0.139:38566', 'tcp://10.7.0.139:38661', 'tcp://10.7.0.139:39883', 'tcp://10.7.0.139:41066', 'tcp://10.7.0.139:41125', 'tcp://10.7.0.139:41152', 'tcp://10.7.0.139:41453', 'tcp://10.7.0.139:41808', 'tcp://10.7.0.139:42047', 'tcp://10.7.0.139:42125', 'tcp://10.7.0.139:42353', 'tcp://10.7.0.139:42565', 'tcp://10.7.0.139:43226', 'tcp://10.7.0.139:43813', 'tcp://10.7.0.139:44275', 'tcp://10.7.0.139:45427', 'tcp://10.7.0.139:45428', 'tcp://10.7.0.139:45773', 'tcp://10.7.0.139:46008', 'tcp://10.7.0.139:46476', 'tcp://10.7.0.140:33536', 'tcp://10.7.0.140:34524', 'tcp://10.7.0.140:36824', 'tcp://10.7.0.140:36948', 'tcp://10.7.0.140:37089', 'tcp://10.7.0.140:37238', 'tcp://10.7.0.140:37462', 'tcp://10.7.0.140:37828', 'tcp://10.7.0.140:38034', 'tcp://10.7.0.140:38070', 'tcp://10.7.0.140:38373', 'tcp://10.7.0.140:38781', 'tcp://10.7.0.140:39533', 'tcp://10.7.0.140:39829', 'tcp://10.7.0.140:40474', 'tcp://10.7.0.140:40741', 'tcp://10.7.0.140:40758', 'tcp://10.7.0.140:40828', 'tcp://10.7.0.140:41744', 'tcp://10.7.0.140:43074', 'tcp://10.7.0.140:43629', 'tcp://10.7.0.140:43699', 'tcp://10.7.0.140:43856', 'tcp://10.7.0.140:44363', 'tcp://10.7.0.140:45207', 'tcp://10.7.0.140:45341', 'tcp://10.7.0.140:45437', 'tcp://10.7.0.140:45996', 'tcp://10.7.0.140:46322', 'tcp://10.7.0.140:46598']
+dask.array<concatenate, shape=(25, 32768, 32768), dtype=float64, chunksize=(1, 8192, 8192), chunktype=numpy.ndarray>
+Generated contract {'global_t': [(0, 25, 1)]}
+Contract has been signed
+Original arrays deleted
+EST_ANALYTICS_TIME:  201.35967
+Done
+
+functions called:
+SIMULATION_TIME:     212.393728337999931 (avg: 8.495749133519997)
+PDI_DELAY:           28.895620663999928 (avg: 1.155824826559997)
+SIM_WTHOUT_PDI:      183.498107674000011 (avg: 7.339924306960000)
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.146:39393 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.141:37958 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.141:37956 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.144:54810 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.150:35638 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.145:33440 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.143:50506 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.147:48020 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.148:34120 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.150:35636 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.145:33438 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.147:48018 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+SUCCESS
+HTML_ANALYTICS_TIME:      13.29
+HTML_TRANSFER_TIME:       277.43
+HTML_DESERIALIZE_TIME:    
+HTML_COMPUTE_TIME:        4.49

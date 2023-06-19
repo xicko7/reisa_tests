@@ -1,0 +1,33 @@
+Slurm job started at 18/06/2023_18:44:02
+
+NNODES = 6
+SIMUNODES = 4
+WORKERNODES = 2
+NPROC = 128
+NWORKER = 60
+..['tcp://10.7.0.132:32903', 'tcp://10.7.0.132:33528', 'tcp://10.7.0.132:33787', 'tcp://10.7.0.132:33995', 'tcp://10.7.0.132:34069', 'tcp://10.7.0.132:34266', 'tcp://10.7.0.132:35012', 'tcp://10.7.0.132:35508', 'tcp://10.7.0.132:36399', 'tcp://10.7.0.132:36710', 'tcp://10.7.0.132:37313', 'tcp://10.7.0.132:38411', 'tcp://10.7.0.132:39260', 'tcp://10.7.0.132:39463', 'tcp://10.7.0.132:39484', 'tcp://10.7.0.132:39544', 'tcp://10.7.0.132:39597', 'tcp://10.7.0.132:40238', 'tcp://10.7.0.132:40431', 'tcp://10.7.0.132:40645', 'tcp://10.7.0.132:42475', 'tcp://10.7.0.132:43205', 'tcp://10.7.0.132:43554', 'tcp://10.7.0.132:44619', 'tcp://10.7.0.132:44877', 'tcp://10.7.0.132:45022', 'tcp://10.7.0.132:45211', 'tcp://10.7.0.132:45823', 'tcp://10.7.0.132:46263', 'tcp://10.7.0.132:46790', 'tcp://10.7.0.133:32862', 'tcp://10.7.0.133:33805', 'tcp://10.7.0.133:35900', 'tcp://10.7.0.133:35920', 'tcp://10.7.0.133:36083', 'tcp://10.7.0.133:36869', 'tcp://10.7.0.133:37334', 'tcp://10.7.0.133:38049', 'tcp://10.7.0.133:38178', 'tcp://10.7.0.133:38490', 'tcp://10.7.0.133:38634', 'tcp://10.7.0.133:38860', 'tcp://10.7.0.133:38971', 'tcp://10.7.0.133:39290', 'tcp://10.7.0.133:39575', 'tcp://10.7.0.133:40671', 'tcp://10.7.0.133:40770', 'tcp://10.7.0.133:41299', 'tcp://10.7.0.133:41928', 'tcp://10.7.0.133:42303', 'tcp://10.7.0.133:42382', 'tcp://10.7.0.133:42411', 'tcp://10.7.0.133:43175', 'tcp://10.7.0.133:43434', 'tcp://10.7.0.133:43539', 'tcp://10.7.0.133:43717', 'tcp://10.7.0.133:43855', 'tcp://10.7.0.133:44339', 'tcp://10.7.0.133:46207', 'tcp://10.7.0.133:46740']
+dask.array<concatenate, shape=(12, 32768, 65536), dtype=float64, chunksize=(1, 4096, 4096), chunktype=numpy.ndarray>
+Generated contract {'global_t': [(0, 12, 1)]}
+Contract has been signed
+Original arrays deleted
+SIMULATION_TIME:     76.643859933999991 (avg: 6.386988327833333)
+PDI_DELAY:           52.015886881999982 (avg: 4.334657240166665)
+SIM_WTHOUT_PDI:      24.627973052000009 (avg: 2.052331087666667)
+SUCCESS
+EST_ANALYTICS_TIME:  70.07166
+Done
+tornado.application - ERROR - Exception in callback <bound method Client._heartbeat of <Client: 'tcp://10.7.0.129:8786' processes=60 threads=2400, memory=9.38 TiB>>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/ioloop.py", line 921, in _run
+    val = self.callback()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/client.py", line 1099, in _heartbeat
+    self.scheduler_comm.send({"op": "heartbeat-client"})
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError(f"Comm {self.comm!r} already closed.")
+distributed.comm.core.CommClosedError: Comm <TCP (closed) Client->Scheduler local=tcp://10.7.0.129:45516 remote=tcp://10.7.0.129:8786> already closed.
+
+functions called:
+HTML_ANALYTICS_TIME:      67.94
+HTML_TRANSFER_TIME:       4.73
+HTML_DESERIALIZE_TIME:    96.07
+HTML_COMPUTE_TIME:        595.50

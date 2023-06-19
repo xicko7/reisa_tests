@@ -1,0 +1,60 @@
+Slurm job started at 18/06/2023_19:56:42
+
+NNODES = 4
+SIMUNODES = 2
+WORKERNODES = 2
+NPROC = 4
+NWORKER = 60
+..['tcp://10.7.0.132:33475', 'tcp://10.7.0.132:33623', 'tcp://10.7.0.132:34595', 'tcp://10.7.0.132:36414', 'tcp://10.7.0.132:37238', 'tcp://10.7.0.132:37870', 'tcp://10.7.0.132:38107', 'tcp://10.7.0.132:38443', 'tcp://10.7.0.132:39276', 'tcp://10.7.0.132:39345', 'tcp://10.7.0.132:39422', 'tcp://10.7.0.132:39980', 'tcp://10.7.0.132:40027', 'tcp://10.7.0.132:40905', 'tcp://10.7.0.132:41155', 'tcp://10.7.0.132:41282', 'tcp://10.7.0.132:41407', 'tcp://10.7.0.132:41492', 'tcp://10.7.0.132:42276', 'tcp://10.7.0.132:42867', 'tcp://10.7.0.132:43439', 'tcp://10.7.0.132:44078', 'tcp://10.7.0.132:44406', 'tcp://10.7.0.132:44618', 'tcp://10.7.0.132:45290', 'tcp://10.7.0.132:45899', 'tcp://10.7.0.132:45917', 'tcp://10.7.0.132:45987', 'tcp://10.7.0.132:46303', 'tcp://10.7.0.132:46481', 'tcp://10.7.0.133:32805', 'tcp://10.7.0.133:33858', 'tcp://10.7.0.133:34890', 'tcp://10.7.0.133:35124', 'tcp://10.7.0.133:35186', 'tcp://10.7.0.133:35385', 'tcp://10.7.0.133:35599', 'tcp://10.7.0.133:36511', 'tcp://10.7.0.133:38057', 'tcp://10.7.0.133:38635', 'tcp://10.7.0.133:38822', 'tcp://10.7.0.133:39373', 'tcp://10.7.0.133:39644', 'tcp://10.7.0.133:39777', 'tcp://10.7.0.133:40037', 'tcp://10.7.0.133:40434', 'tcp://10.7.0.133:40542', 'tcp://10.7.0.133:41155', 'tcp://10.7.0.133:42076', 'tcp://10.7.0.133:42254', 'tcp://10.7.0.133:42943', 'tcp://10.7.0.133:43002', 'tcp://10.7.0.133:43777', 'tcp://10.7.0.133:44123', 'tcp://10.7.0.133:44128', 'tcp://10.7.0.133:44245', 'tcp://10.7.0.133:44948', 'tcp://10.7.0.133:45724', 'tcp://10.7.0.133:46695', 'tcp://10.7.0.133:46697']
+dask.array<concatenate, shape=(12, 16384, 16384), dtype=float64, chunksize=(1, 8192, 8192), chunktype=numpy.ndarray>
+Generated contract {'global_t': [(0, 12, 1)]}
+Contract has been signed
+Original arrays deleted
+EST_ANALYTICS_TIME:  100.83271
+Done
+tornado.application - ERROR - Exception in callback <bound method Client._heartbeat of <Client: 'tcp://10.7.0.129:8786' processes=60 threads=2400, memory=9.38 TiB>>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/ioloop.py", line 921, in _run
+    val = self.callback()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/client.py", line 1099, in _heartbeat
+    self.scheduler_comm.send({"op": "heartbeat-client"})
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError(f"Comm {self.comm!r} already closed.")
+distributed.comm.core.CommClosedError: Comm <TCP (closed) Client->Scheduler local=tcp://10.7.0.129:37352 remote=tcp://10.7.0.129:8786> already closed.
+
+functions called:
+SIMULATION_TIME:     106.858289811000020 (avg: 8.904857484250002)
+PDI_DELAY:           21.523093244999970 (avg: 1.793591103749997)
+SIM_WTHOUT_PDI:      85.335196566000050 (avg: 7.111266380500004)
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.136:58614 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.135:39892 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+distributed.batched - INFO - Batched Comm Closed <TCP (closed) Client->Scheduler local=tcp://10.7.0.136:58616 remote=tcp://10.7.0.129:8786>
+Traceback (most recent call last):
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/batched.py", line 93, in _background_send
+    nbytes = yield self.comm.write(
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-tornado-6.2-lemkpcoofzciypjtwijrfhbso5bboah2/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/gpfs/users/fernandezx/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/py-distributed-deisa-tvck22hdjddjrkrb4clzsednvt2igzro/lib/python3.10/site-packages/distributed/comm/tcp.py", line 248, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+SUCCESS
+HTML_ANALYTICS_TIME:      99.28
+HTML_TRANSFER_TIME:       118.16
+HTML_DESERIALIZE_TIME:    2.06
+HTML_COMPUTE_TIME:        36.89
